@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Bradley Burgess 2",
+        "title": "Carpet-1",
         "imgf": "product-1.jpg",
         "imgb": "product-2.jpg",
         "category": [
@@ -26,7 +26,7 @@
     },
     {
         "id": 2,
-        "title": "Allie Sharp",
+        "title": "Carpet-2",
         "imgf": "product-3.jpg",
         "imgb": "product-4.jpg",
         "category": [
@@ -51,7 +51,7 @@
     },
     {
         "id": 3,
-        "title": "Nathaniel Baldwin",
+        "title": "Carpet-3",
         "imgf": "product-5.jpg",
         "imgb": "product-6.jpg",
         "category": [
@@ -76,7 +76,7 @@
     },
     {
         "id": 4,
-        "title": "Effie Rios",
+        "title": "Carpet-4",
         "imgf": "product-7.jpg",
         "imgb": "product-8.jpg",
         "category": [
@@ -101,7 +101,7 @@
     },
     {
         "id": 5,
-        "title": "Carolyn Goodwin",
+        "title": "Carpet-5",
         "imgf": "product-9.jpg",
         "imgb": "product-10.jpg",
         "category": [
@@ -126,7 +126,7 @@
     },
     {
         "id": 6,
-        "title": "Evelyn Patton",
+        "title": "Carpet-6",
         "imgf": "product-11.jpg",
         "imgb": "product-12.jpg",
         "category": [
@@ -151,7 +151,7 @@
     },
     {
         "id": 7,
-        "title": "Sally Ray",
+        "title": "Carpet-7",
         "imgf": "product-13.jpg",
         "imgb": "product-14.jpg",
         "category": [
@@ -176,7 +176,7 @@
     },
     {
         "id": 8,
-        "title": "Ora Bowman",
+        "title": "Carpet-8",
         "imgf": "product-15.jpg",
         "imgb": "product-16.jpg",
         "category": [

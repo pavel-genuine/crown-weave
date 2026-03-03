@@ -6,9 +6,9 @@ const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
     spaceBetween: 30,
-    // autoplay: {
-    //     delay: 2500,
-    // },
+    autoplay: {
+        delay: 2500,
+    },
 
     // Navigation
     navigation: {
@@ -42,17 +42,13 @@ export default function Slider1() {
                                                     <div style={{ backgroundColor: '#00000036', padding: '0 10px', borderRadius: '5px' }}>
 
                                                         <h4 className="tp-slide-item__sub-title">Accessories</h4>
-                                                        <h3 className="tp-slide-item__title mb-25">Up To
-                                                            <i>40% Off
-                                                                <img src="/assets/img/icon/title-shape-02.jpg" alt="" />
-                                                            </i>
-                                                            latest Creations
-                                                        </h3>   </div>
+                                                        <h3 className="tp-slide-item__title mb-25">Up To <i>40% Off <img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i> latest
+                                                            Creations</h3>  </div>
                                                     <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
 
                                                 <div className="tp-slide-item__img">
-                                                    <img src="/assets/img/slider/sld-1.png" alt="" />
+                                                    <img src="/assets/img/slider/sld-1.jpg" alt="" />
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -67,7 +63,7 @@ export default function Slider1() {
                                                     <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
-                                                    <img src="/assets/img/slider/sld-3.png" alt="" />
+                                                    <img src="/assets/img/slider/sld-4.jpg" alt="" />
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -84,7 +80,7 @@ export default function Slider1() {
                                                     <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
-                                                    <img src="/assets/img/slider/sld-2.png" alt="" />
+                                                    <img src="/assets/img/slider/sld-1.png" alt="" />
                                                 </div>
                                             </div>
                                         </SwiperSlide>
