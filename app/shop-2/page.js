@@ -1,7 +1,7 @@
 'use client'
 import Layout from "@/components/layout/Layout"
-import FilterShopBox from "@/components/shop/FilterShopBox"
-import FilterSidebar from "@/components/shop/FilterSidebar"
+import FilterShopBox from "@/components//FilterShopBox"
+import FilterSidebar from "@/components//FilterSidebar"
 import { useState } from "react"
 export default function Shop2() {
     const [activeIndex, setActiveIndex] = useState(2)

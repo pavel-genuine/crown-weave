@@ -1,5 +1,5 @@
 'use client'
-import { addCart } from "@/features/shopSlice"
+import { addCart } from "@/features/Slice"
 import { addQty, deleteWishlist } from "@/features/wishlistSlice"
 import Link from "next/link"
 import products from "@/data/products"
@@ -32,14 +32,14 @@ const WishlistItems = () => {
             {wishlist?.map((item) => (
                 <tr className="cart-item" key={item.id}>
                     <td className="product-thumbnail">
-                        <Link href={`/shop/${item.id}`}>
+                        <Link href={`//${item.id}`}>
                             <img
                                 src={`/assets/img/product/${item.imgf}`} alt="cart added product" />
                         </Link>
                     </td>
 
                     <td className="product-name">
-                        <Link href={`/shop/${item.id}`}>
+                        <Link href={`//${item.id}`}>
                             {item.title}
                         </Link>
                     </td>

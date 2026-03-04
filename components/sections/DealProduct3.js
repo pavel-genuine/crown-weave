@@ -31,10 +31,10 @@ export default function DealProduct3() {
                         <div className="swiper-container swiper--top">
                             <Swiper {...swiperOptions}>
                                 <SwiperSlide>
-                                    <p>Great Deal Of The Day <span><Link href="/shop">Shop Now</Link></span></p>
+                                    <p>Great Deal Of The Day <span><Link href="/">Shop Now</Link></span></p>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <p>Great Deal Of The Day <span><Link href="/shop">Shop Now</Link></span></p>
+                                    <p>Great Deal Of The Day <span><Link href="/">Shop Now</Link></span></p>
                                 </SwiperSlide>
                             </Swiper>
                         </div>
@@ -50,7 +50,7 @@ export default function DealProduct3() {
                                         <del>$59.00</del>
                                     </div>
                                     <div className="tpdealcontact__text mb-30">
-                                        <h4 className="tpdealcontact__title mb-10"><Link href="/shop-details">Pro2 Abstract Folded Pots</Link></h4>
+                                        <h4 className="tpdealcontact__title mb-10"><Link href="/-details">Pro2 Abstract Folded Pots</Link></h4>
                                         <p>Elegant pink origami design three-dimensional view and decoration co-exist.
                                             Great for adding a decorative touch to any room’s decor.</p>
                                     </div>

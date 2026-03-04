@@ -20,7 +20,7 @@ export default function Category() {
                                 <span>20</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Driftwood <br /> Table Decor</Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/">Driftwood <br /> Table Decor</Link></h5>
                             </div>
                         </div>
                         <div className="tpcategory mb-40">
@@ -29,7 +29,7 @@ export default function Category() {
                                 <span>12</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Floor Driftwood <br /> Sculpture</Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/">Floor Driftwood <br /> Sculpture</Link></h5>
                             </div>
                         </div>
                         <div className="tpcategory mb-40">
@@ -38,7 +38,7 @@ export default function Category() {
                                 <span>03</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Driftwood <br /> Christmas Tree </Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/">Driftwood <br /> Christmas Tree </Link></h5>
                             </div>
                         </div>
                         <div className="tpcategory mb-40">
@@ -47,7 +47,7 @@ export default function Category() {
                                 <span>09</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop"> Wooden <br /> Bluetooth Speaker </Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/"> Wooden <br /> Bluetooth Speaker </Link></h5>
                             </div>
                         </div>
                         <div className="tpcategory mb-40">
@@ -56,7 +56,7 @@ export default function Category() {
                                 <span>10</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Receivers <br />  Amplifiers</Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/">Receivers <br />  Amplifiers</Link></h5>
                             </div>
                         </div>
                         <div className="tpcategory mb-40">
@@ -65,7 +65,7 @@ export default function Category() {
                                 <span>05</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Appetizer <br /> Plate Set </Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/">Appetizer <br /> Plate Set </Link></h5>
                             </div>
                         </div>
                     </div>

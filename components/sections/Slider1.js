@@ -44,7 +44,7 @@ export default function Slider1() {
                                                         <h4 className="tp-slide-item__sub-title">Accessories</h4>
                                                         <h3 className="tp-slide-item__title mb-25">Up To <i>40% Off <img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i> latest
                                                             Creations</h3>  </div>
-                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
 
                                                 <div className="tp-slide-item__img">
@@ -60,7 +60,7 @@ export default function Slider1() {
                                                         <h3 className="tp-slide-item__title mb-25">Up To <i>35% Off <img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i> latest
                                                             Creations</h3>
                                                     </div>
-                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
                                                     <img src="/assets/img/slider/sld-4.jpg" alt="" />
@@ -77,7 +77,7 @@ export default function Slider1() {
 
                                                     </div>
 
-                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
                                                     <img src="/assets/img/slider/sld-1.png" alt="" />
@@ -93,7 +93,7 @@ export default function Slider1() {
                             <div className="row">
                                 <div className="col-lg-12 col-md-6">
                                     <div className="tpslider-banner tp-slider-sm-banner mb-30">
-                                        <Link href="/shop-details">
+                                        <Link href="/-details">
                                             <div className="tpslider-banner__img">
                                                 <img src="/assets/img/slider/banner-slider-01.jpg" alt="" />
                                                 <div className="tpslider-banner__content">
@@ -106,7 +106,7 @@ export default function Slider1() {
                                 </div>
                                 <div className="col-lg-12 col-md-6">
                                     <div className="tpslider-banner">
-                                        <Link href="/shop-details">
+                                        <Link href="/-details">
                                             <div className="tpslider-banner__img">
                                                 <img src="/assets/img/slider/banner-slider-02.jpg" alt="" />
                                                 <div className="tpslider-banner__content">

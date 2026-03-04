@@ -29,10 +29,10 @@ export default function Sidebar({ isMobileMenu, handleMobileMenu }) {
                         <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex={0}>
                             <div className="tpsidebar-categories">
                                 <ul>
-                                    <li><Link href="/shop">Furniture</Link></li>
-                                    <li><Link href="/shop">Wooden</Link></li>
-                                    <li><Link href="/shop">Lifestyle</Link></li>
-                                    <li><Link href="/shop-2">Shopping</Link></li>
+                                    <li><Link href="/">Furniture</Link></li>
+                                    <li><Link href="/">Wooden</Link></li>
+                                    <li><Link href="/">Lifestyle</Link></li>
+                                    <li><Link href="/-2">Shopping</Link></li>
                                     <li><Link href="/track">Track Product</Link></li>
                                 </ul>
                             </div>

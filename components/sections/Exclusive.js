@@ -16,7 +16,7 @@ export default function Exclusive() {
                                     <h4 className="tpexclusive__subtitle">Collection</h4>
                                     <h3 className="tpexclusive__title mb-30">Winter <br /> Exclusive In</h3>
                                     <div className="tpexclusive__btn">
-                                        <Link href="/shop" className="tp-btn banner-animation">Shop Now</Link>
+                                        <Link href="/" className="tp-btn banner-animation">Shop Now</Link>
                                     </div>
                                 </div>
                             </div>

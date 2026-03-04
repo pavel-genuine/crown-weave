@@ -14,7 +14,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="header-welcome-text">
                                     <span>Free shipping on all U.S orders</span>
-                                    <b>$50+</b>
+                                    <b> ৳ 2000+</b>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 d-none d-sm-block">
@@ -49,7 +49,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="col-lg-2">
                                 <div className="mainmenu__main text-center">
                                     <div className="main-logo">
-                                        <Link href="/"><img style={{ width: '90%', margin: '10px' }} src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                        <Link href="/"><img style={{ width: '90%', }} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                                     </div>
                                 </div>
                             </div>
@@ -79,39 +79,47 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 <li className="has-dropdown">
                                                     <Link href="/">Home</Link>
                                                     <ul className="submenu">
-                                                        <li><Link href="/">Wooden  Home</Link></li>
-                                                        <li><Link href="/index-2">Fashion Home</Link></li>
-                                                        <li><Link href="/index-3">Furniture Home</Link></li>
-                                                        <li><Link href="/index-4">Cosmetics Home</Link></li>
-                                                        <li><Link href="/index-5">Food Grocery</Link></li>
+                                                        <li><Link href="/">Home 1</Link></li>
+                                                        {/* <li><Link href="/index-2">Fashion Home</Link></li>
+                                                        <li><Link href="/index-3">Furniture Home</Link></li> */}
+                                                        <li><Link href="/index-4">Home 2</Link></li>
+                                                        {/* <li><Link href="/index-5">Food Grocery</Link></li> */}
                                                     </ul>
                                                 </li>
                                                 <li className="has-dropdown">
-                                                    <Link href="/shop">Shop</Link>
+                                                    <Link href="/">Categories</Link>
                                                     <ul className="submenu">
-                                                        <li><Link href="/shop">Shop</Link></li>
-                                                        <li><Link href="/shop-2">Shop 2</Link></li>
-                                                        <li><Link href="/shop-details">Shop Details </Link></li>
-                                                        <li><Link href="/shop-details-2">Shop Details 2</Link></li>
-                                                        <li><Link href="/shop-location">Shop Location</Link></li>
+                                                        <li><Link href="/">Machine Made</Link></li>
+                                                        <li><Link href="/">Needle Punch</Link></li>
+                                                        <li><Link href="/">Wall To Wal</Link></li>
+                                                    </ul>
+                                                </li>
+                                                <li className="has-dropdo">
+                                                    <Link href="/">Shop</Link>
+                                                    {/* <ul className="submenu">
+                                                        <li><Link href="/">Shop</Link></li>
+                                                        <li><Link href="/-2">Shop 2</Link></li>
+                                                        <li><Link href="/-details">Shop Details </Link></li>
+                                                        <li><Link href="/-details-2">Shop Details 2</Link></li>
+                                                        <li><Link href="/-location">Shop Location</Link></li>
                                                         <li><Link href="/cart">Cart</Link></li>
                                                         <li><Link href="/sign-in">Sign In</Link></li>
                                                         <li><Link href="/checkout">Checkout</Link></li>
                                                         <li><Link href="/wishlist">Wishlist</Link></li>
                                                         <li><Link href="/track">Product Track</Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </li>
-                                                <li className="has-dropdown has-megamenu">
+                                                {/* <li className="has-dropdown has-megamenu">
                                                     <Link href="/about">Pages</Link>
                                                     <ul className="submenu mega-menu">
                                                         <li>
                                                             <a className="mega-menu-title">Page layout</a>
                                                             <ul>
-                                                                <li><Link href="/shop">Shop filters v1</Link></li>
-                                                                <li><Link href="/shop-2">Shop filters v2</Link></li>
-                                                                <li><Link href="/shop-details">Shop sidebar</Link></li>
-                                                                <li><Link href="/shop-details-2">Shop Right sidebar</Link></li>
-                                                                <li><Link href="/shop-location">Shop List view</Link></li>
+                                                                <li><Link href="/">Shop filters v1</Link></li>
+                                                                <li><Link href="/-2">Shop filters v2</Link></li>
+                                                                <li><Link href="/-details">Shop sidebar</Link></li>
+                                                                <li><Link href="/-details-2">Shop Right sidebar</Link></li>
+                                                                <li><Link href="/-location">Shop List view</Link></li>
                                                             </ul>
                                                         </li>
                                                         <li>
@@ -134,15 +142,23 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                             </ul>
                                                         </li>
                                                     </ul>
-                                                </li>
+                                                </li> */}
                                                 <li className="has-dropdown">
-                                                    <Link href="/blog">Blog</Link>
+                                                    <Link href="/">About Us</Link>
                                                     <ul className="submenu">
-                                                        <li><Link href="/blog">Blog</Link></li>
-                                                        <li><Link href="/blog-details">Blog Details</Link></li>
+                                                        <li><Link href="/">About Us</Link></li>
+                                                        <li><Link href="/">Our Offerings</Link></li>
+                                                        <li><Link href="/">Our Crown Weave Works</Link></li>
+                                                        <li><Link href="/">Sustainability</Link></li>
+                                                        <li><Link href="/">Explore</Link></li>
+                                                        <li><Link href="/">NewsRoom</Link></li>
+                                                        <li><Link href="/">Investor Relations</Link></li>
+                                                        <li><Link href="/">Blogs</Link></li>
+                                                        <li><Link href="/">Career</Link></li>
+                                                        <li><Link href="/">Contact</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><Link href="/contact">Contact</Link></li>
+                                                {/* <li><Link href="/">Contact</Link></li> */}
                                             </ul>
                                         </nav>
                                     </div>

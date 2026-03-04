@@ -117,31 +117,31 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                     <a onClick={handleToggle} href="#"><i className="fal fa-bars" />Categories</a>
                                     <div className="category-menu" style={{ display: `${isToggled ? "block" : "none"}` }}>
                                         <ul className="cat-menu__list">
-                                            <li><Link href="/shop-2"><i className="fal fa-chair" /> Furniture</Link></li>
-                                            <li className="menu-item-has-children"><Link href="/shop"><i className="far fa-campfire" />
+                                            <li><Link href="/-2"><i className="fal fa-chair" /> Furniture</Link></li>
+                                            <li className="menu-item-has-children"><Link href="/"><i className="far fa-campfire" />
                                                 Cooking </Link>
                                                 <ul className="submenu">
-                                                    <li><Link href="/shop-2">Chair</Link></li>
-                                                    <li><Link href="/shop-2">Table</Link></li>
-                                                    <li><Link href="/shop">Wooden</Link></li>
-                                                    <li><Link href="/shop">furniture</Link></li>
-                                                    <li><Link href="/shop">Clock</Link></li>
-                                                    <li><Link href="/shop">Gifts</Link></li>
-                                                    <li><Link href="/shop">Crafts</Link></li>
+                                                    <li><Link href="/-2">Chair</Link></li>
+                                                    <li><Link href="/-2">Table</Link></li>
+                                                    <li><Link href="/">Wooden</Link></li>
+                                                    <li><Link href="/">furniture</Link></li>
+                                                    <li><Link href="/">Clock</Link></li>
+                                                    <li><Link href="/">Gifts</Link></li>
+                                                    <li><Link href="/">Crafts</Link></li>
                                                 </ul>
                                             </li>
-                                            <li><Link href="/shop-2"><i className="fal fa-shoe-prints" />Accessories</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-tshirt" />Fashion</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-clock" />Clocks</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-light-ceiling" />Lighting</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-gift" />Toys</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-basketball-ball" />Hand Made</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-gift" />Minimalism</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-lightbulb-dollar" />Electronics</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-car-alt" />Cars</Link></li>
+                                            <li><Link href="/-2"><i className="fal fa-shoe-prints" />Accessories</Link></li>
+                                            <li><Link href="/-2"><i className="fal fa-tshirt" />Fashion</Link></li>
+                                            <li><Link href="/-2"><i className="fal fa-clock" />Clocks</Link></li>
+                                            <li><Link href="/-2"><i className="fal fa-light-ceiling" />Lighting</Link></li>
+                                            <li><Link href="/-2"><i className="fal fa-gift" />Toys</Link></li>
+                                            <li><Link href="/-2"><i className="fal fa-basketball-ball" />Hand Made</Link></li>
+                                            <li><Link href="/-2"><i className="fal fa-gift" />Minimalism</Link></li>
+                                            <li><Link href="/-2"><i className="fal fa-lightbulb-dollar" />Electronics</Link></li>
+                                            <li><Link href="/-2"><i className="fal fa-car-alt" />Cars</Link></li>
                                         </ul>
                                         <div className="coupon-offer d-flex align-items-center justify-content-between">
-                                            <span>Coupon: <Link href="/shop">Offers50</Link></span>
+                                            <span>Coupon: <Link href="/">Offers50</Link></span>
                                             <Link href="#"> <i className="fal fa-copy" /></Link>
                                         </div>
                                     </div>
@@ -162,13 +162,13 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 </ul>
                                             </li>
                                             <li className="has-dropdown">
-                                                <Link href="/shop">Shop</Link>
+                                                <Link href="/">Shop</Link>
                                                 <ul className="submenu">
-                                                    <li><Link href="/shop">Shop</Link></li>
-                                                    <li><Link href="/shop-2">Shop 2</Link></li>
-                                                    <li><Link href="/shop-details">Shop Details </Link></li>
-                                                    <li><Link href="/shop-details-2">Shop Details 2</Link></li>
-                                                    <li><Link href="/shop-location">Shop Location</Link></li>
+                                                    <li><Link href="/">Shop</Link></li>
+                                                    <li><Link href="/-2">Shop 2</Link></li>
+                                                    <li><Link href="/-details">Shop Details </Link></li>
+                                                    <li><Link href="/-details-2">Shop Details 2</Link></li>
+                                                    <li><Link href="/-location">Shop Location</Link></li>
                                                     <li><Link href="/cart">Cart</Link></li>
                                                     <li><Link href="/sign-in">Sign In</Link></li>
                                                     <li><Link href="/checkout">Checkout</Link></li>
@@ -182,11 +182,11 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <li>
                                                         <a className="mega-menu-title">Page layout</a>
                                                         <ul>
-                                                            <li><Link href="/shop">Shop filters v1</Link></li>
-                                                            <li><Link href="/shop-2">Shop filters v2</Link></li>
-                                                            <li><Link href="/shop-details">Shop sidebar</Link></li>
-                                                            <li><Link href="/shop-details-2">Shop Right sidebar</Link></li>
-                                                            <li><Link href="/shop-location">Shop List view</Link></li>
+                                                            <li><Link href="/">Shop filters v1</Link></li>
+                                                            <li><Link href="/-2">Shop filters v2</Link></li>
+                                                            <li><Link href="/-details">Shop sidebar</Link></li>
+                                                            <li><Link href="/-details-2">Shop Right sidebar</Link></li>
+                                                            <li><Link href="/-location">Shop List view</Link></li>
                                                         </ul>
                                                     </li>
                                                     <li>
@@ -241,7 +241,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <i className="fal fa-map-marker-alt" />
                                                 </div>
                                                 <div className="menu-contact__info">
-                                                    <Link href="/shop-location">Find Store</Link>
+                                                    <Link href="/-location">Find Store</Link>
                                                 </div>
                                             </div>
                                         </li>

@@ -43,7 +43,7 @@ export default function Slider2() {
                                                         <h3 className="tpslidertwo__title mb-10">Exclusive <br /> Winter Collection</h3>
                                                         <p>New Modern Stylist Fashionable Women's Wear holder</p>
                                                         <div className="tpslidertwo__slide-btn">
-                                                            <Link className="tp-btn banner-animation" href="/shop">Shop Now <i className="fal fa-long-arrow-right" />
+                                                            <Link className="tp-btn banner-animation" href="/">Shop Now <i className="fal fa-long-arrow-right" />
                                                             </Link>
                                                         </div>
                                                     </div>
@@ -72,7 +72,7 @@ export default function Slider2() {
                                                         <h3 className="tpslidertwo__title mb-10">Exclusive <br /> Women's Fashion</h3>
                                                         <p>New Modern Stylist Fashionable Women's Wear holder</p>
                                                         <div className="tpslidertwo__slide-btn">
-                                                            <Link className="tp-btn banner-animation" href="/shop">Shop Now <i className="fal fa-long-arrow-right" />
+                                                            <Link className="tp-btn banner-animation" href="/">Shop Now <i className="fal fa-long-arrow-right" />
                                                             </Link>
                                                         </div>
                                                     </div>
@@ -101,7 +101,7 @@ export default function Slider2() {
                                                         <h3 className="tpslidertwo__title mb-10">Exclusive <br /> Summer Collection</h3>
                                                         <p>New Modern Stylist Fashionable Women's Wear holder</p>
                                                         <div className="tpslidertwo__slide-btn">
-                                                            <Link className="tp-btn banner-animation" href="/shop">Shop Now <i className="fal fa-long-arrow-right" />
+                                                            <Link className="tp-btn banner-animation" href="/">Shop Now <i className="fal fa-long-arrow-right" />
                                                             </Link>
                                                         </div>
                                                     </div>

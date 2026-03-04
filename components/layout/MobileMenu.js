@@ -40,13 +40,13 @@ export default function MobileMenu() {
                                 <Link className="mean-expand" onClick={() => handleClick(1)} href="#" style={{ fontSize: 18 }}><i className="fal fa-plus" /></Link>
                             </li>
                             <li className="has-dropdown">
-                                <Link href="/shop">Shop</Link>
+                                <Link href="/">Shop</Link>
                                 <ul className="submenu" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                    <li><Link href="/shop">Shop</Link></li>
-                                    <li><Link href="/shop-2">Shop 2</Link></li>
-                                    <li><Link href="/shop-details">Shop Details </Link></li>
-                                    <li><Link href="/shop-details-2">Shop Details 2</Link></li>
-                                    <li><Link href="/shop-location">Shop Location</Link></li>
+                                    <li><Link href="/">Shop</Link></li>
+                                    <li><Link href="/-2">Shop 2</Link></li>
+                                    <li><Link href="/-details">Shop Details </Link></li>
+                                    <li><Link href="/-details-2">Shop Details 2</Link></li>
+                                    <li><Link href="/-location">Shop Location</Link></li>
                                     <li><Link href="/cart">Cart</Link></li>
                                     <li><Link href="/sign-in">Sign In</Link></li>
                                     <li><Link href="/checkout">Checkout</Link></li>
@@ -59,11 +59,11 @@ export default function MobileMenu() {
                                 <Link href="/about">Pages</Link>
                                 <ul className="submenu mega-menu" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
 
-                                    <li><Link href="/shop">Shop filters v1</Link></li>
-                                    <li><Link href="/shop-2">Shop filters v2</Link></li>
-                                    <li><Link href="/shop-details">Shop sidebar</Link></li>
-                                    <li><Link href="/shop-details-2">Shop Right sidebar</Link></li>
-                                    <li><Link href="/shop-location">Shop List view</Link></li>
+                                    <li><Link href="/">Shop filters v1</Link></li>
+                                    <li><Link href="/-2">Shop filters v2</Link></li>
+                                    <li><Link href="/-details">Shop sidebar</Link></li>
+                                    <li><Link href="/-details-2">Shop Right sidebar</Link></li>
+                                    <li><Link href="/-location">Shop List view</Link></li>
 
                                     <li><Link href="/about">About</Link></li>
                                     <li><Link href="/cart">Cart</Link></li>

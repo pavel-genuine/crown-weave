@@ -41,7 +41,7 @@ export default function Slider3() {
                                                 <h3 className="tpslidertwo__title mb-10">Wooden <br /> Lounge Furniture</h3>
                                                 <p>New Modern Stylist Fashionable Women's Wear holder</p>
                                                 <div className="tpslidertwo__slide-btn d-flex align-items-center ">
-                                                    <Link className="tp-btn banner-animation mr-25" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <Link className="tp-btn banner-animation mr-25" href="/">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                     <span>Start From <br /> <b>$99.99</b></span>
                                                 </div>
                                             </div>
@@ -65,7 +65,7 @@ export default function Slider3() {
                                                 <h3 className="tpslidertwo__title mb-10">Wooden <br /> Lounge Chair</h3>
                                                 <p>New Modern Stylist Fashionable Women's Wear holder</p>
                                                 <div className="tpslidertwo__slide-btn d-flex align-items-center ">
-                                                    <Link className="tp-btn banner-animation mr-25" href="/shop-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <Link className="tp-btn banner-animation mr-25" href="/-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                     <span>Start From <br /> <b>$99.99</b></span>
                                                 </div>
                                             </div>
@@ -89,7 +89,7 @@ export default function Slider3() {
                                                 <h3 className="tpslidertwo__title mb-10">Wooden <br /> Houston Furniture</h3>
                                                 <p>New Modern Stylist Fashionable Women's Wear holder</p>
                                                 <div className="tpslidertwo__slide-btn d-flex align-items-center ">
-                                                    <Link className="tp-btn banner-animation mr-25" href="/shop-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <Link className="tp-btn banner-animation mr-25" href="/-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                     <span>Start From <br /> <b>$99.99</b></span>
                                                 </div>
                                             </div>

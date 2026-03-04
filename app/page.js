@@ -5,8 +5,8 @@ import Product1 from "@/components/sections/Product1"
 import Shop from "@/components/sections/Shop"
 import Slider1 from "@/components/sections/Slider1"
 export const metadata = {
-  title: 'Crown Weave',
-  description: 'By Mamun Group',
+    title: 'Crown Weave',
+    description: 'By Mamun Group',
 }
 export default function Home() {
     return (

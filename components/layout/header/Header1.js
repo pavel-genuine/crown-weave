@@ -20,7 +20,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="col-12">
                                 <div className="header-welcome-text text-start ">
                                     <span>Welcome to our international shop! Enjoy free shipping on orders ৳5000  up.</span>
-                                    <Link href="/shop">{'  '}Shop Now <i className="fal fa-long-arrow-right" /> </Link>
+                                    <Link href="/">{'  '}Shop Now <i className="fal fa-long-arrow-right" /> </Link>
                                 </div>
                             </div>
                         </div>
@@ -99,30 +99,30 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         <a className="tp-cat-toggle" onClick={handleToggle} role="button"><i className="fal fa-bars" />Categories</a>
                                         <div className="category-menu category-menu-off" style={{ display: `${isToggled ? "block" : "none"}` }}>
                                             <ul className="cat-menu__list">
-                                                {/* <li><Link href="/shop"><i className="fal fa-user" /> Rugs</Link></li> */}
-                                                <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-flower-tulip" />Machine Made Carpets</Link>
+                                                {/* <li><Link href="/"><i className="fal fa-user" /> Rugs</Link></li> */}
+                                                <li className="menu-item-has-children"><Link href="/"><i className="fal fa-flower-tulip" />Machine Made Carpets</Link>
                                                     <ul className="submenu">
-                                                        <li><Link href="/shop-2"> Rugs</Link></li>
-                                                        <li><Link href="/shop-2">Prayer Mates</Link></li>
-                                                        {/* <li><Link href="/shop">Wooden</Link></li>
-                                                        <li><Link href="/shop">furniture</Link></li>
-                                                        <li><Link href="/shop">Clock</Link></li>
-                                                        <li><Link href="/shop">Gifts</Link></li>
-                                                        <li><Link href="/shop">Crafts</Link></li> */}
+                                                        <li><Link href="/-2"> Rugs</Link></li>
+                                                        <li><Link href="/-2">Prayer Mates</Link></li>
+                                                        {/* <li><Link href="/">Wooden</Link></li>
+                                                        <li><Link href="/">furniture</Link></li>
+                                                        <li><Link href="/">Clock</Link></li>
+                                                        <li><Link href="/">Gifts</Link></li>
+                                                        <li><Link href="/">Crafts</Link></li> */}
                                                     </ul>
                                                 </li>
-                                                <li><Link href="/shop"><i className="fal fa-smile" /> Needle Punch Carpets</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-shoe-prints" /> Wall To Wall Carpets</Link></li>
+                                                <li><Link href="/"><i className="fal fa-smile" /> Needle Punch Carpets</Link></li>
+                                                <li><Link href="/"><i className="fal fa-shoe-prints" /> Wall To Wall Carpets</Link></li>
                                                 {/* 
-                                                <li><Link href="/shop"><i className="fal fa-futbol" /> Handy Cream</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-crown" /> Cosmetics</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-gift" /> Silk Accessories</Link></li> */}
+                                                <li><Link href="/"><i className="fal fa-futbol" /> Handy Cream</Link></li>
+                                                <li><Link href="/"><i className="fal fa-crown" /> Cosmetics</Link></li>
+                                                <li><Link href="/"><i className="fal fa-gift" /> Silk Accessories</Link></li> */}
                                             </ul>
                                             <div className="daily-offer">
                                                 <ul>
-                                                    <li><Link href="/shop">Value of the Day</Link></li>
-                                                    <li><Link href="/shop">Top 100 Offers</Link></li>
-                                                    <li><Link href="/shop">New Arrivals</Link></li>
+                                                    <li><Link href="/">Value of the Day</Link></li>
+                                                    <li><Link href="/">Top 100 Offers</Link></li>
+                                                    <li><Link href="/">New Arrivals</Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -143,13 +143,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     </ul>
                                                 </li>
                                                 <li className="has-dropdown">
-                                                    <Link href="/shop">Shop</Link>
+                                                    <Link href="/">Shop</Link>
                                                     <ul className="submenu">
-                                                        <li><Link href="/shop">Shop</Link></li>
-                                                        <li><Link href="/shop-2">Shop 2</Link></li>
-                                                        <li><Link href="/shop-details">Shop Details </Link></li>
-                                                        <li><Link href="/shop-details-2">Shop Details 2</Link></li>
-                                                        <li><Link href="/shop-location">Shop Location</Link></li>
+                                                        <li><Link href="/">Shop</Link></li>
+                                                        <li><Link href="/-2">Shop 2</Link></li>
+                                                        <li><Link href="/-details">Shop Details </Link></li>
+                                                        <li><Link href="/-details-2">Shop Details 2</Link></li>
+                                                        <li><Link href="/-location">Shop Location</Link></li>
                                                         <li><Link href="/cart">Cart</Link></li>
                                                         <li><Link href="/sign-in">Sign In</Link></li>
                                                         <li><Link href="/checkout">Checkout</Link></li>
@@ -163,11 +163,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li>
                                                             <a className="mega-menu-title">Page layout</a>
                                                             <ul>
-                                                                <li><Link href="/shop">Shop filters v1</Link></li>
-                                                                <li><Link href="/shop-2">Shop filters v2</Link></li>
-                                                                <li><Link href="/shop-details">Shop sidebar</Link></li>
-                                                                <li><Link href="/shop-details-2">Shop Right sidebar</Link></li>
-                                                                <li><Link href="/shop-location">Shop List view</Link></li>
+                                                                <li><Link href="/">Shop filters v1</Link></li>
+                                                                <li><Link href="/-2">Shop filters v2</Link></li>
+                                                                <li><Link href="/-details">Shop sidebar</Link></li>
+                                                                <li><Link href="/-details-2">Shop Right sidebar</Link></li>
+                                                                <li><Link href="/-location">Shop List view</Link></li>
                                                             </ul>
                                                         </li>
                                                         <li>
@@ -222,7 +222,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <i className="fal fa-map-marker-alt" />
                                                     </div>
                                                     <div className="menu-contact__info">
-                                                        <Link href="/shop-location">Find Store</Link>
+                                                        <Link href="/-location">Find Store</Link>
                                                     </div>
                                                 </div>
                                             </li>

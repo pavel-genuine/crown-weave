@@ -40,29 +40,29 @@ export default function Slider5() {
                                 <a onClick={handleToggle} href="#"><i className="fal fa-bars" />Categories</a>
                                 <div className="category-menu" style={{ display: `${isToggled ? "block" : "none"}` }}>
                                     <ul className="cat-menu__list">
-                                        <li><Link href="/shop-2"><i className="fal fa-user" /> Candles</Link></li>
-                                        <li className="menu-item-has-children"><Link href="/shop-2"><i className="fal fa-flower-tulip" /> Handmade</Link>
+                                        <li><Link href="/-2"><i className="fal fa-user" /> Candles</Link></li>
+                                        <li className="menu-item-has-children"><Link href="/-2"><i className="fal fa-flower-tulip" /> Handmade</Link>
                                             <ul className="submenu">
-                                                <li><Link href="/shop-2">Chair</Link></li>
-                                                <li><Link href="/shop-2">Table</Link></li>
-                                                <li><Link href="/shop">Wooden</Link></li>
-                                                <li><Link href="/shop">furniture</Link></li>
-                                                <li><Link href="/shop">Clock</Link></li>
-                                                <li><Link href="/shop">Gifts</Link></li>
-                                                <li><Link href="/shop">Crafts</Link></li>
+                                                <li><Link href="/-2">Chair</Link></li>
+                                                <li><Link href="/-2">Table</Link></li>
+                                                <li><Link href="/">Wooden</Link></li>
+                                                <li><Link href="/">furniture</Link></li>
+                                                <li><Link href="/">Clock</Link></li>
+                                                <li><Link href="/">Gifts</Link></li>
+                                                <li><Link href="/">Crafts</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link href="/shop-2"><i className="fal fa-shoe-prints" /> Gift Sets</Link></li>
-                                        <li><Link href="/shop-2"><i className="fal fa-smile" /> Plastic Gifts</Link></li>
-                                        <li><Link href="/shop-2"><i className="fal fa-futbol" /> Handy Cream</Link></li>
-                                        <li><Link href="/shop-2"><i className="fal fa-crown" /> Cosmetics</Link></li>
-                                        <li><Link href="/shop-2"><i className="fal fa-gift" /> Silk Accessories</Link></li>
+                                        <li><Link href="/-2"><i className="fal fa-shoe-prints" /> Gift Sets</Link></li>
+                                        <li><Link href="/-2"><i className="fal fa-smile" /> Plastic Gifts</Link></li>
+                                        <li><Link href="/-2"><i className="fal fa-futbol" /> Handy Cream</Link></li>
+                                        <li><Link href="/-2"><i className="fal fa-crown" /> Cosmetics</Link></li>
+                                        <li><Link href="/-2"><i className="fal fa-gift" /> Silk Accessories</Link></li>
                                     </ul>
                                     <div className="daily-offer d-xl-none d-xxl-block">
                                         <ul>
-                                            <li><Link href="/shop-2">Value of the Day</Link></li>
-                                            <li><Link href="/shop-2">Top 100 Offers</Link></li>
-                                            <li><Link href="/shop-2">New Arrivals</Link></li>
+                                            <li><Link href="/-2">Value of the Day</Link></li>
+                                            <li><Link href="/-2">Top 100 Offers</Link></li>
+                                            <li><Link href="/-2">New Arrivals</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@ export default function Slider5() {
                                                 <div className="tp-slide-item__content">
                                                     <h4 className="tp-slide-item__sub-title">Quality  Fresh Products</h4>
                                                     <h3 className="tp-slide-item__title mb-25">Fresh Grocery <br /> Products.</h3>
-                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/shop-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
                                                     <img src="assets/img/slider/slider-05-bg-1.jpg" alt="" />
@@ -89,7 +89,7 @@ export default function Slider5() {
                                                 <div className="tp-slide-item__content">
                                                     <h4 className="tp-slide-item__sub-title">Quality  Fresh Products</h4>
                                                     <h3 className="tp-slide-item__title mb-25">Fresh Grocery <br /> Products.</h3>
-                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/shop-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
                                                     <img src="assets/img/slider/slider-05-bg-2.jpg" alt="" />
@@ -101,7 +101,7 @@ export default function Slider5() {
                                                 <div className="tp-slide-item__content">
                                                     <h4 className="tp-slide-item__sub-title">Quality  Fresh Products</h4>
                                                     <h3 className="tp-slide-item__title mb-25">Fresh Grocery <br /> Products.</h3>
-                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/shop-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
                                                     <img src="assets/img/slider/slider-05-bg-3.jpg" alt="" />
@@ -113,7 +113,7 @@ export default function Slider5() {
                                                 <div className="tp-slide-item__content">
                                                     <h4 className="tp-slide-item__sub-title">Quality  Fresh Products</h4>
                                                     <h3 className="tp-slide-item__title mb-25">Fresh Grocery <br /> Products.</h3>
-                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/shop-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
                                                     <img src="assets/img/slider/slider-05-bg-4.jpg" alt="" />
@@ -129,7 +129,7 @@ export default function Slider5() {
                             <div className="row">
                                 <div className="col-lg-12 col-md-6 col-sm-6">
                                     <div className="tpslider-banner mb-30 tpbnner-height-5">
-                                        <Link href="/shop-2">
+                                        <Link href="/-2">
                                             <div className="tpslider-banner__img tpbannerthumb-5">
                                                 <img src="assets/img/slider/slider-05-banner-1.jpg" alt="" />
                                                 <div className="tpslider-banner__content">
@@ -142,7 +142,7 @@ export default function Slider5() {
                                 </div>
                                 <div className="col-lg-12 col-md-6 col-sm-6">
                                     <div className="tpslider-banner white-banner">
-                                        <Link href="/shop">
+                                        <Link href="/">
                                             <div className="tpslider-banner__img tpbannerthumb-5">
                                                 <img src="assets/img/slider/slider-05-banner-2.jpg" alt="" />
                                                 <div className="tpslider-banner__content">

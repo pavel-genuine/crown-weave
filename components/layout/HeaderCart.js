@@ -28,7 +28,7 @@ export default function HeaderCart({ isCartSidebar, handleCartSidebar }) {
                     <div className="tpcart__product">
                         <div className="tpcart__product-list">
                             <ul>
-                                {cart?.map((item,i) => (
+                                {cart?.map((item, i) => (
                                     <li key={i}>
                                         <div className="tpcart__item">
                                             <div className="tpcart__img">

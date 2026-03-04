@@ -300,7 +300,7 @@ export default function ShopDetails() {
                                                             <li>
                                                                 <div className="comments-box d-flex">
                                                                     <div className="comments-avatar mr-25">
-                                                                        <img src="/assets/img/shop/reviewer-01.png" alt="" />
+                                                                        <img src="/assets/img//reviewer-01.png" alt="" />
                                                                     </div>
                                                                     <div className="comments-text">
                                                                         <div className="comments-top d-sm-flex align-items-start justify-content-between mb-5">
@@ -327,7 +327,7 @@ export default function ShopDetails() {
                                                             <li>
                                                                 <div className="comments-box d-flex">
                                                                     <div className="comments-avatar mr-25">
-                                                                        <img src="/assets/img/shop/reviewer-02.png" alt="" />
+                                                                        <img src="/assets/img//reviewer-02.png" alt="" />
                                                                     </div>
                                                                     <div className="comments-text">
                                                                         <div className="comments-top d-sm-flex align-items-start justify-content-between mb-5">
@@ -354,7 +354,7 @@ export default function ShopDetails() {
                                                             <li>
                                                                 <div className="comments-box d-flex">
                                                                     <div className="comments-avatar mr-25">
-                                                                        <img src="/assets/img/shop/reviewer-03.png" alt="" />
+                                                                        <img src="/assets/img//reviewer-03.png" alt="" />
                                                                     </div>
                                                                     <div className="comments-text">
                                                                         <div className="comments-top d-sm-flex align-items-start justify-content-between mb-5">
@@ -452,7 +452,7 @@ export default function ShopDetails() {
                                     <SwiperSlide>
                                         <div className="tpproduct pb-15 mb-30">
                                             <div className="tpproduct__thumb p-relative">
-                                                <Link href="/shop-details-2">
+                                                <Link href="/-details-2">
                                                     <img src="/assets/img/product/product-1.jpg" alt="product-thumb" />
                                                     <img className="product-thumb-secondary" src="/assets/img/product/product-2.jpg" alt="" />
                                                 </Link>
@@ -463,7 +463,7 @@ export default function ShopDetails() {
                                                 </div>
                                             </div>
                                             <div className="tpproduct__content">
-                                                <h3 className="tpproduct__title"><Link href="/shop-details">Miko Wooden Bluetooth Speaker</Link></h3>
+                                                <h3 className="tpproduct__title"><Link href="/-details">Miko Wooden Bluetooth Speaker</Link></h3>
                                                 <div className="tpproduct__priceinfo p-relative">
                                                     <div className="tpproduct__priceinfo-list">
                                                         <span>$31.00</span>
@@ -478,7 +478,7 @@ export default function ShopDetails() {
                                     <SwiperSlide>
                                         <div className="tpproduct pb-15 mb-30">
                                             <div className="tpproduct__thumb p-relative">
-                                                <Link href="/shop-details">
+                                                <Link href="/-details">
                                                     <img src="/assets/img/product/product-3.jpg" alt="product-thumb" />
                                                     <img className="product-thumb-secondary" src="/assets/img/product/product-4.jpg" alt="" />
                                                 </Link>
@@ -489,7 +489,7 @@ export default function ShopDetails() {
                                                 </div>
                                             </div>
                                             <div className="tpproduct__content">
-                                                <h3 className="tpproduct__title"><Link href="/shop-details-2">Gorgeous Wooden Gloves</Link></h3>
+                                                <h3 className="tpproduct__title"><Link href="/-details-2">Gorgeous Wooden Gloves</Link></h3>
                                                 <div className="tpproduct__priceinfo p-relative">
                                                     <div className="tpproduct__priceinfo-list">
                                                         <span>$31.00</span>
@@ -504,7 +504,7 @@ export default function ShopDetails() {
                                     <SwiperSlide>
                                         <div className="tpproduct pb-15 mb-30">
                                             <div className="tpproduct__thumb p-relative">
-                                                <Link href="/shop-details-2">
+                                                <Link href="/-details-2">
                                                     <img src="/assets/img/product/product-5.jpg" alt="product-thumb" />
                                                     <img className="product-thumb-secondary" src="/assets/img/product/product-6.jpg" alt="" />
                                                 </Link>
@@ -515,7 +515,7 @@ export default function ShopDetails() {
                                                 </div>
                                             </div>
                                             <div className="tpproduct__content">
-                                                <h3 className="tpproduct__title"><Link href="/shop-details">Pinkol Enormous Granite Bottle</Link></h3>
+                                                <h3 className="tpproduct__title"><Link href="/-details">Pinkol Enormous Granite Bottle</Link></h3>
                                                 <div className="tpproduct__priceinfo p-relative">
                                                     <div className="tpproduct__priceinfo-list">
                                                         <span>$31.00</span>
@@ -531,7 +531,7 @@ export default function ShopDetails() {
                                         <div className="tpproduct pb-15 mb-30">
                                             <div className="tpproduct__thumb p-relative">
                                                 <span className="tpproduct__thumb-topsall">On Sale</span>
-                                                <Link href="/shop-details-2">
+                                                <Link href="/-details-2">
                                                     <img src="/assets/img/product/product-7.jpg" alt="product-thumb" />
                                                     <img className="product-thumb-secondary" src="/assets/img/product/product-8.jpg" alt="" />
                                                 </Link>
@@ -542,7 +542,7 @@ export default function ShopDetails() {
                                                 </div>
                                             </div>
                                             <div className="tpproduct__content">
-                                                <h3 className="tpproduct__title"><Link href="/shop-details-2">Gorgeous Aluminum Table</Link></h3>
+                                                <h3 className="tpproduct__title"><Link href="/-details-2">Gorgeous Aluminum Table</Link></h3>
                                                 <div className="tpproduct__priceinfo p-relative">
                                                     <div className="tpproduct__priceinfo-list">
                                                         <span>$31.00</span>
@@ -557,7 +557,7 @@ export default function ShopDetails() {
                                     <SwiperSlide>
                                         <div className="tpproduct pb-15 mb-30">
                                             <div className="tpproduct__thumb p-relative">
-                                                <Link href="/shop-details-2">
+                                                <Link href="/-details-2">
                                                     <img src="/assets/img/product/product-9.jpg" alt="product-thumb" />
                                                     <img className="product-thumb-secondary" src="/assets/img/product/product-10.jpg" alt="" />
                                                 </Link>
@@ -568,7 +568,7 @@ export default function ShopDetails() {
                                                 </div>
                                             </div>
                                             <div className="tpproduct__content">
-                                                <h3 className="tpproduct__title"><Link href="/shop-details">Evo Lightweight Granite Shirt</Link></h3>
+                                                <h3 className="tpproduct__title"><Link href="/-details">Evo Lightweight Granite Shirt</Link></h3>
                                                 <div className="tpproduct__priceinfo p-relative">
                                                     <div className="tpproduct__priceinfo-list">
                                                         <span>$31.00</span>
@@ -585,7 +585,7 @@ export default function ShopDetails() {
                                         <div className="tpproduct pb-15 mb-30">
                                             <div className="tpproduct__thumb p-relative">
                                                 <span className="tpproduct__thumb-volt"><i className="fas fa-bolt" /></span>
-                                                <Link href="/shop-details-2">
+                                                <Link href="/-details-2">
                                                     <img src="/assets/img/product/product-11.jpg" alt="product-thumb" />
                                                     <img className="product-thumb-secondary" src="/assets/img/product/product-12.jpg" alt="" />
                                                 </Link>

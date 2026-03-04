@@ -40,7 +40,7 @@ export default function ShopLocation() {
                                         </div>
                                     </div>
                                     <div className="tpshop__thumb">
-                                        <img src="/assets/img/shop/location-1.jpg" alt="shop" />
+                                        <img src="/assets/img//location-1.jpg" alt="shop" />
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ export default function ShopLocation() {
                                         </div>
                                     </div>
                                     <div className="tpshop__thumb">
-                                        <img src="/assets/img/shop/location-2.jpg" alt="shop" />
+                                        <img src="/assets/img//location-2.jpg" alt="shop" />
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ export default function ShopLocation() {
                                         </div>
                                     </div>
                                     <div className="tpshop__thumb">
-                                        <img src="/assets/img/shop/location-3.jpg" alt="shop" />
+                                        <img src="/assets/img//location-3.jpg" alt="shop" />
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@ export default function ShopLocation() {
                                         </div>
                                     </div>
                                     <div className="tpshop__thumb">
-                                        <img src="/assets/img/shop/location-4.jpg" alt="shop" />
+                                        <img src="/assets/img//location-4.jpg" alt="shop" />
                                     </div>
                                 </div>
                             </div>

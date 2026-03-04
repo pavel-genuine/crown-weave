@@ -65,23 +65,23 @@ export default function Footer2() {
                                     <div className="footer-widget footer-col-5 mb-40">
                                         <h4 className="footer-widget__title mb-30">Popular Keywords</h4>
                                         <div className="footer-widget__links keyword">
-                                            <Link href="/shop">Makeup</Link>
-                                            <Link href="/shop">Dresses For Girls</Link>
-                                            <Link href="/shop">T-Shirts</Link>
-                                            <Link href="/shop">Sandals</Link>
-                                            <Link href="/shop">Headphones</Link>
-                                            <Link href="/shop">Baby dolls</Link>
-                                            <Link href="/shop">Blazers</Link>
-                                            <Link href="/shop">For Men</Link>
-                                            <Link href="/shop">Handbags</Link>
-                                            <Link href="/shop">Ladies Watches</Link>
-                                            <Link href="/shop">Bags</Link>
-                                            <Link href="/shop">Sport Shoes</Link>
-                                            <Link href="/shop">Reebok Shoes</Link>
-                                            <Link href="/shop">Puma Shoes</Link>
-                                            <Link href="/shop">Boxers</Link>
-                                            <Link href="/shop">Wallets</Link>
-                                            <Link href="/shop">Tops</Link>
+                                            <Link href="/">Makeup</Link>
+                                            <Link href="/">Dresses For Girls</Link>
+                                            <Link href="/">T-Shirts</Link>
+                                            <Link href="/">Sandals</Link>
+                                            <Link href="/">Headphones</Link>
+                                            <Link href="/">Baby dolls</Link>
+                                            <Link href="/">Blazers</Link>
+                                            <Link href="/">For Men</Link>
+                                            <Link href="/">Handbags</Link>
+                                            <Link href="/">Ladies Watches</Link>
+                                            <Link href="/">Bags</Link>
+                                            <Link href="/">Sport Shoes</Link>
+                                            <Link href="/">Reebok Shoes</Link>
+                                            <Link href="/">Puma Shoes</Link>
+                                            <Link href="/">Boxers</Link>
+                                            <Link href="/">Wallets</Link>
+                                            <Link href="/">Tops</Link>
                                         </div>
                                     </div>
                                 </div>

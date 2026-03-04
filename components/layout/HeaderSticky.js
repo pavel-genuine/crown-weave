@@ -10,7 +10,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                     <div className="row align-items-center">
                         <div className="col-xl-2 col-lg-3">
                             <div className="logo">
-                                <Link href="/"><img style={{ width: '90%', margin: '10px' }} src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                <Link href="/"><img style={{ width: '50%', margin: '10px' }} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6">
@@ -28,13 +28,13 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                             </ul>
                                         </li>
                                         <li className="has-dropdown">
-                                            <Link href="/shop">Shop</Link>
+                                            <Link href="/">Shop</Link>
                                             <ul className="submenu">
-                                                <li><Link href="/shop">Shop</Link></li>
-                                                <li><Link href="/shop-2">Shop 2</Link></li>
-                                                <li><Link href="/shop-details">Shop Details </Link></li>
-                                                <li><Link href="/shop-details-2">Shop Details 2</Link></li>
-                                                <li><Link href="/shop-location">Shop Location</Link></li>
+                                                <li><Link href="/">Shop</Link></li>
+                                                <li><Link href="/-2">Shop 2</Link></li>
+                                                <li><Link href="/-details">Shop Details </Link></li>
+                                                <li><Link href="/-details-2">Shop Details 2</Link></li>
+                                                <li><Link href="/-location">Shop Location</Link></li>
                                                 <li><Link href="/cart">Cart</Link></li>
                                                 <li><Link href="/sign-in">Sign In</Link></li>
                                                 <li><Link href="/checkout">Checkout</Link></li>
@@ -48,11 +48,11 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 <li>
                                                     <a className="mega-menu-title">Page layout</a>
                                                     <ul>
-                                                        <li><Link href="/shop">Shop filters v1</Link></li>
-                                                        <li><Link href="/shop-2">Shop filters v2</Link></li>
-                                                        <li><Link href="/shop-details">Shop sidebar</Link></li>
-                                                        <li><Link href="/shop-details-2">Shop Right sidebar</Link></li>
-                                                        <li><Link href="/shop-location">Shop List view</Link></li>
+                                                        <li><Link href="/">Shop filters v1</Link></li>
+                                                        <li><Link href="/-2">Shop filters v2</Link></li>
+                                                        <li><Link href="/-details">Shop sidebar</Link></li>
+                                                        <li><Link href="/-details-2">Shop Right sidebar</Link></li>
+                                                        <li><Link href="/-location">Shop List view</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>

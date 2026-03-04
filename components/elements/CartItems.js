@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
-import { addQty, deleteCart } from "@/features/shopSlice";
+import { addQty, deleteCart } from "@/features/Slice";
 
 const CartItems = () => {
     const { cart } = useSelector((state) => state.shop) || {};
@@ -23,14 +23,14 @@ const CartItems = () => {
             {cart?.map((item) => (
                 <tr className="cart-item" key={item.id}>
                     <td className="product-thumbnail">
-                        <Link href={`/shop/${item.id}`}>
-                            <img 
-                            src={`/assets/img/product/${item.imgf}`} alt="cart added product" />
+                        <Link href={`//${item.id}`}>
+                            <img
+                                src={`/assets/img/product/${item.imgf}`} alt="cart added product" />
                         </Link>
                     </td>
 
                     <td className="product-name">
-                        <Link href={`/shop/${item.id}`}>
+                        <Link href={`//${item.id}`}>
                             {item.title}
                         </Link>
                     </td>
@@ -52,7 +52,7 @@ const CartItems = () => {
                         </div>
                     </td>
 
-                    <td className="product-subtotal"> 
+                    <td className="product-subtotal">
                         <span className="amount">
                             ${(item?.qty * item?.price.max).toFixed(2)}
                         </span>
