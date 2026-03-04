@@ -42,7 +42,7 @@ export default function Slider4() {
                                         <div className="col-xl-6 col-lg-6 col-md-12">
                                             <div className="tpslidertwo__item slidre-item-4 ml-145 text-center">
                                                 <div className="tpslidertwo__content">
-                                                    <h3 className="tpslidertwo__title mb-10">Will Never <br /> Compromise Beauty</h3>
+                                                    <h3 className="tpslidertwo__title mb-10">Will Never <br /> Compromise Quality</h3>
                                                     <p>New Modern Stylish Fashionable Rugs & Carpets</p>
                                                     <div className="tpslidertwo__slide-btn d-flex justify-content-center">
                                                         <Link className="tp-btn banner-animation tpslider-btn-4 mr-25" href="/">Shop Now <i className="fal fa-long-arrow-right" />
