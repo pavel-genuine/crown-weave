@@ -16,7 +16,7 @@ export default function Home4() {
         <>
             <Layout headerStyle={4} footerStyle={1}>
                 <Slider4 />
-                <Brand3 />
+                {/* <Brand3 /> */}
                 <Banner3 />
                 <Product1 />
                 {/* <Features /> */}
