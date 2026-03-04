@@ -13,7 +13,7 @@ import Link from "next/link"
 
 export const metadata = {
     title: 'Crown Weave',
-    description: 'By Mamun Group',
+    description: 'By MG',
 }
 export default function Home4() {
 
