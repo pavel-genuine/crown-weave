@@ -41,7 +41,7 @@ const PriceRangeSlider = () => {
 
             <div className="input-outer">
                 <div className="amount-outer">
-                    <span className="area-amount">{price.max}$ </span>
+                    <span className="area-amount">{price.max} $ </span>
 
                 </div>
             </div>

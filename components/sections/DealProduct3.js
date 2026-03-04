@@ -46,8 +46,8 @@ export default function DealProduct3() {
                             <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-12">
                                 <div className="tpdealcontact tp-red-deal-text pt-30 mb-30">
                                     <div className="tpdealcontact__price mb-5">
-                                        <span>$49.00</span>
-                                        <del>$59.00</del>
+                                        <span> $49.00</span>
+                                        <del> $59.00</del>
                                     </div>
                                     <div className="tpdealcontact__text mb-30">
                                         <h4 className="tpdealcontact__title mb-10"><Link href="/-details">Pro2 Abstract Design</Link></h4>

@@ -19,13 +19,13 @@ const CategoryLevel = () => {
                 <div className="form-check" key={item.id}>
                     <input
                         className="form-check-input"
-                        id={`category${item.id}`}
+                        id={`category ${item.id}`}
                         type="checkbox"
                         value={item.value}
                         checked={item.isChecked || false}
                         onChange={(e) => categoryHandler(e, item.id)}
                     />
-                    <label className="form-check-label" htmlFor={`category${item.id}`}>
+                    <label className="form-check-label" htmlFor={`category ${item.id}`}>
                         {item.name}
                     </label>
                 </div>

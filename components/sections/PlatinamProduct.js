@@ -72,9 +72,9 @@ export default function PlatinamProduct() {
                                 <SwiperSlide key={i}>
                                     <div className="tpratingitem tpproduct text-center">
                                         <div className="tpproduct__thumb p-relative">
-                                            <Link href={`/shop/${item.id}`}>
-                                                <img src={`/assets/img/product/${item.imgf}`} alt="product-thumb" />
-                                                <img className="thumbitem-secondary" src={`/assets/img/product/${item.imgb}`} alt="product-thumb" />
+                                            <Link href={`/shop/ ${item.id}`}>
+                                                <img src={`/assets/img/product/ ${item.imgf}`} alt="product-thumb" />
+                                                <img className="thumbitem-secondary" src={`/assets/img/product/ ${item.imgb}`} alt="product-thumb" />
                                             </Link>
                                             <div className="tpproduct__thumb-action">
                                                 <Link href="#" onClick={() => addToCart(item.id)}><i className="fal fa-shopping-basket" /></Link>
@@ -83,8 +83,8 @@ export default function PlatinamProduct() {
                                             </div>
                                         </div>
                                         <div className="tpratingitem__content">
-                                            <h4 className="tpratingitem__title mb-5">  <Link href={`/shop/${item.id}`}>Miko: Bold Miranda Joggers</Link></h4>
-                                            <span>$31.00</span>
+                                            <h4 className="tpratingitem__title mb-5">  <Link href={`/shop/ ${item.id}`}>Miko: Bold Miranda Joggers</Link></h4>
+                                            <span> $31.00</span>
                                             <div className="tpratingitem__star mt-5">
                                                 <i className="fas fa-star" />
                                                 <i className="fas fa-star" />

@@ -4,7 +4,7 @@ import CartShow from "../elements/CartShow"
 export default function HeaderMobSticky({ scroll, isMobileMenu, handleMobileMenu, isCartSidebar, handleCartSidebar }) {
     return (
         <>
-            <div id="header-mob-sticky" className={`tp-md-lg-header d-md-none pt-20 pb-20 ${scroll ? "header-sticky" : ""}`}>
+            <div id="header-mob-sticky" className={`tp-md-lg-header d-md-none pt-20 pb-20  ${scroll ? "header-sticky" : ""}`}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-3 d-flex align-items-center">

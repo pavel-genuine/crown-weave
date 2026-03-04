@@ -15,7 +15,7 @@ export default function DealProduct1() {
                                     <div className="tpdealproduct__thumb p-relative text-center">
                                         <img src="/assets/img/floded/floded-01.png" alt="dealproduct-thumb" />
                                         <div className="tpdealproductd__offer">
-                                            <h5 className="tpdealproduct__offer-price"><span>From</span>$49</h5>
+                                            <h5 className="tpdealproduct__offer-price"><span>From</span> $49</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -23,8 +23,8 @@ export default function DealProduct1() {
                             <div className="col-lg-6 col-md-12">
                                 <div className="tpdealcontact pt-30">
                                     <div className="tpdealcontact__price mb-5">
-                                        <span>$49.00</span>
-                                        <del>$59.00</del>
+                                        <span> $49.00</span>
+                                        <del> $59.00</del>
                                     </div>
                                     <div className="tpdealcontact__text mb-30">
                                         <h4 className="tpdealcontact__title mb-10"><Link href="/-details">Pro2 Abstract

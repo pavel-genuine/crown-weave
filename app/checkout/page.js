@@ -43,7 +43,7 @@ export default function Checkout() {
                                     <div className="coupon-accordion">
                                         {/* ACCORDION START */}
                                         <h3>Returning customer? <span id="showlogin" onClick={handleLoginToggle}>Click here to login</span></h3>
-                                        <div id="checkout-login" className="coupon-content" style={{ display: `${isLoginToggle ? "block" : "none"}` }}>
+                                        <div id="checkout-login" className="coupon-content" style={{ display: ` ${isLoginToggle ? "block" : "none"}` }}>
                                             <div className="coupon-info">
                                                 <p className="coupon-text">Quisque gravida turpis sit amet nulla posuere lacinia. Cras sed est
                                                     sit amet ipsum luctus.</p>
@@ -76,7 +76,7 @@ export default function Checkout() {
                                     <div className="coupon-accordion">
                                         {/* ACCORDION START */}
                                         <h3>Have a coupon? <span id="showcoupon" onClick={handleCuponToggle}>Click here to enter your code</span></h3>
-                                        <div id="checkout_coupon" className="coupon-checkout-content" style={{ display: `${isCuponToggle ? "block" : "none"}` }}>
+                                        <div id="checkout_coupon" className="coupon-checkout-content" style={{ display: ` ${isCuponToggle ? "block" : "none"}` }}>
                                             <div className="coupon-info">
                                                 <form action="#">
                                                     <p className="checkout-coupon">
@@ -180,7 +180,7 @@ export default function Checkout() {
                                                         <input id="cbox" type="checkbox" onClick={handleCboxToggle} />
                                                         <label>Create an account?</label>
                                                     </div>
-                                                    <div id="cbox_info" className="checkout-form-list create-account" style={{ display: `${isCboxToggle ? "block" : "none"}` }}>
+                                                    <div id="cbox_info" className="checkout-form-list create-account" style={{ display: ` ${isCboxToggle ? "block" : "none"}` }}>
                                                         <p>Create an account by entering the information below. If you are a returning
                                                             customer please login at the top of the page.</p>
                                                         <label>Account password <span className="required">*</span></label>
@@ -195,7 +195,7 @@ export default function Checkout() {
                                                         <input id="ship-box" type="checkbox" onClick={handleShipToggle} />
                                                     </h3>
                                                 </div>
-                                                <div id="ship-box-info" style={{ display: `${isShipToggle ? "block" : "none"}` }}>
+                                                <div id="ship-box-info" style={{ display: ` ${isShipToggle ? "block" : "none"}` }}>
                                                     <div className="row">
                                                         <div className="col-md-12">
                                                             <div className="country-select">
@@ -299,7 +299,7 @@ export default function Checkout() {
                                                                 Vestibulum suscipit <strong className="product-quantity"> × 1</strong>
                                                             </td>
                                                             <td className="product-total">
-                                                                <span className="amount">$165.00</span>
+                                                                <span className="amount"> $165.00</span>
                                                             </td>
                                                         </tr>
                                                         <tr className="cart_item">
@@ -307,14 +307,14 @@ export default function Checkout() {
                                                                 Vestibulum dictum magna <strong className="product-quantity"> × 1</strong>
                                                             </td>
                                                             <td className="product-total">
-                                                                <span className="amount">$50.00</span>
+                                                                <span className="amount"> $50.00</span>
                                                             </td>
                                                         </tr>
                                                     </tbody>
                                                     <tfoot>
                                                         <tr className="cart-subtotal">
                                                             <th>Cart Subtotal</th>
-                                                            <td><span className="amount">$215.00</span></td>
+                                                            <td><span className="amount"> $215.00</span></td>
                                                         </tr>
                                                         <tr className="shipping">
                                                             <th>Shipping</th>
@@ -323,7 +323,7 @@ export default function Checkout() {
                                                                     <li>
                                                                         <input type="radio" name="shipping" />
                                                                         <label>
-                                                                            Flat Rate: <span className="amount">$7.00</span>
+                                                                            Flat Rate: <span className="amount"> $7.00</span>
                                                                         </label>
                                                                     </li>
                                                                     <li>
@@ -335,7 +335,7 @@ export default function Checkout() {
                                                         </tr>
                                                         <tr className="order-total">
                                                             <th>Order Total</th>
-                                                            <td><strong><span className="amount">$215.00</span></strong>
+                                                            <td><strong><span className="amount"> $215.00</span></strong>
                                                             </td>
                                                         </tr>
                                                     </tfoot>

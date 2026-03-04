@@ -24,7 +24,7 @@ const ShopCard = ({ item, addToCart, addToWishlist }) => {
                         <h3 className="tpproduct__title mb-5"><Link href={`//${item.id}`}>{item.title}</Link></h3>
                         <div className="tpproduct__priceinfo p-relative">
                             <div className="tpproduct__ammount">
-                                <span>${item.price.max}.00</span>
+                                <span>৳{item.price.max}.00</span>
                             </div>
                         </div>
                     </div>

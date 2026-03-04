@@ -22,7 +22,7 @@ const jost = Jost({
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`${jost.variable}`}>
+            <body className={` ${jost.variable}`}>
                 <Provider store={store}>
                     {children}
                     <ToastContainer

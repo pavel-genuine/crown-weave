@@ -60,8 +60,8 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                             <i className="fal fa-shopping-cart" />
                                             <CartShow />
                                         </button>
-                                        <Link href="/sign-in"><i className="fal fa-user" /></Link>
-                                        <Link href="/wishlist"><i className="fal fa-heart" /></Link>
+                                        <Link href="/"><i className="fal fa-user" /></Link>
+                                        <Link href="/"><i className="fal fa-heart" /></Link>
                                     </div>
                                 </div>
                             </div>

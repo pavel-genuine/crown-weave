@@ -19,13 +19,13 @@ const BrandLevel = () => {
                 <div className="form-check" key={item.id}>
                     <input
                         className="form-check-input"
-                        id={`brand${item.id}`}
+                        id={`brand ${item.id}`}
                         type="checkbox"
                         value={item.value}
                         checked={item.isChecked || false}
                         onChange={(e) => brandHandler(e, item.id)}
                     />
-                    <label className="form-check-label" htmlFor={`brand${item.id}`}>
+                    <label className="form-check-label" htmlFor={`brand ${item.id}`}>
                         {item.name}
                     </label>
                 </div>

@@ -42,7 +42,7 @@ export default function Slider3() {
                                                 <p>New Modern Stylist Fashionable Women's Wear holder</p>
                                                 <div className="tpslidertwo__slide-btn d-flex align-items-center ">
                                                     <Link className="tp-btn banner-animation mr-25" href="/">Shop Now <i className="fal fa-long-arrow-right" /></Link>
-                                                    <span>Start From <br /> <b>$99.99</b></span>
+                                                    <span>Start From <br /> <b> $99.99</b></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -66,7 +66,7 @@ export default function Slider3() {
                                                 <p>New Modern Stylist Fashionable Women's Wear holder</p>
                                                 <div className="tpslidertwo__slide-btn d-flex align-items-center ">
                                                     <Link className="tp-btn banner-animation mr-25" href="/-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
-                                                    <span>Start From <br /> <b>$99.99</b></span>
+                                                    <span>Start From <br /> <b> $99.99</b></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -90,7 +90,7 @@ export default function Slider3() {
                                                 <p>New Modern Stylist Fashionable Women's Wear holder</p>
                                                 <div className="tpslidertwo__slide-btn d-flex align-items-center ">
                                                     <Link className="tp-btn banner-animation mr-25" href="/-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
-                                                    <span>Start From <br /> <b>$99.99</b></span>
+                                                    <span>Start From <br /> <b> $99.99</b></span>
                                                 </div>
                                             </div>
                                         </div>

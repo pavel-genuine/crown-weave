@@ -23,19 +23,19 @@ const CartItems = () => {
             {cart?.map((item) => (
                 <tr className="cart-item" key={item.id}>
                     <td className="product-thumbnail">
-                        <Link href={`//${item.id}`}>
+                        <Link href={`// ${item.id}`}>
                             <img
-                                src={`/assets/img/product/${item.imgf}`} alt="cart added product" />
+                                src={`/assets/img/product/ ${item.imgf}`} alt="cart added product" />
                         </Link>
                     </td>
 
                     <td className="product-name">
-                        <Link href={`//${item.id}`}>
+                        <Link href={`// ${item.id}`}>
                             {item.title}
                         </Link>
                     </td>
 
-                    <td className="product-price">${item.price.max}</td>
+                    <td className="product-price"> ${item.price.max}</td>
 
                     <td className="product-quantity">
                         <div className="item-quantity">

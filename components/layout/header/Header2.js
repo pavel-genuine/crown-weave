@@ -14,7 +14,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-xl-8 col-lg-12 col-md-12">
                                 <div className="header-welcome-text ">
-                                    <span>Welcome to our international shop! Enjoy free shipping on orders $100  up.</span>
+                                    <span>Welcome to our international shop! Enjoy free shipping on orders  $100  up.</span>
                                     <Link href="/">Shop Now<i className="fal fa-long-arrow-right" /></Link>
                                 </div>
                             </div>

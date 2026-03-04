@@ -38,7 +38,7 @@ export default function Slider5() {
                         <div className="col-xl-2 d-none d-xl-block">
                             <div className="cat-menu__category category-style-five p-relative">
                                 <a onClick={handleToggle} href="#"><i className="fal fa-bars" />Categories</a>
-                                <div className="category-menu" style={{ display: `${isToggled ? "block" : "none"}` }}>
+                                <div className="category-menu" style={{ display: ` ${isToggled ? "block" : "none"}` }}>
                                     <ul className="cat-menu__list">
                                         <li><Link href="/-2"><i className="fal fa-user" /> Candles</Link></li>
                                         <li className="menu-item-has-children"><Link href="/-2"><i className="fal fa-flower-tulip" /> Handmade</Link>
@@ -164,7 +164,7 @@ export default function Slider5() {
                                 </div>
                                 <div className="tpservicesitem__content">
                                     <h4 className="tpservicesitem__title">Free shipping</h4>
-                                    <p>Free shipping orders over $65.</p>
+                                    <p>Free shipping orders over  $65.</p>
                                 </div>
                             </div>
                         </div>

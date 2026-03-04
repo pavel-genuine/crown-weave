@@ -18,7 +18,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row">
                             <div className="col-xl-7 col-lg-12 col-md-12 ">
                                 <div className="header-welcome-text">
-                                    <span>Welcome to our international shop! Enjoy free shipping on orders $100  up.</span>
+                                    <span>Welcome to our international shop! Enjoy free shipping on orders  $100  up.</span>
                                     <Link href="#">Shop Now<i className="fal fa-long-arrow-right" /></Link>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="col-xl-2 col-lg-3">
                                 <div className="cat-menu__category p-relative">
                                     <a onClick={handleToggle} href="#"><i className="fal fa-bars" />Categories</a>
-                                    <div className="category-menu" style={{ display: `${isToggled ? "block" : "none"}` }}>
+                                    <div className="category-menu" style={{ display: ` ${isToggled ? "block" : "none"}` }}>
                                         <ul className="cat-menu__list">
                                             <li><Link href="/-2"><i className="fal fa-chair" /> Furniture</Link></li>
                                             <li className="menu-item-has-children"><Link href="/"><i className="far fa-campfire" />

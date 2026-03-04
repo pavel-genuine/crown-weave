@@ -27,7 +27,7 @@ export const shopSlice = createSlice({
         deleteWishlist: (state, { payload }) => {
             state.wishlist = state.wishlist.filter((item) => item.id !== payload);
             localStorage.setItem("local-wishlist", JSON.stringify(state.wishlist));
-            toast.error(`Item ${payload} has been deleted.`);
+            toast.error(`Item  ${payload} has been deleted.`);
         },
         addQty: (state, { payload }) => {
             state.wishlist = state.wishlist.filter((item) => {

@@ -78,8 +78,8 @@ export default function ShopDetails2() {
                                         <span className="tpproduct-details__stock">In Stock</span>
                                     </div>
                                     <div className="tpproduct-details__price mb-30">
-                                        <del>$9.35</del>
-                                        <span>$7.25</span>
+                                        <del> ৳9.35</del>
+                                        <span> ৳7.25</span>
                                     </div>
                                     <div className="tpproduct-details__pera">
                                         <p>Priyoshop has brought to you the Hijab 3 Pieces Combo Pack PS23. It is a <br />completely modern design and you feel comfortable to put on this hijab. <br />Buy it at the best price.</p>
@@ -157,7 +157,7 @@ export default function ShopDetails2() {
                                                     <img src="/assets/img/icon/product-det-1.png" alt="" className="tpproduct-details__img-hover" />
                                                 </div>
                                                 <div className="tpproduct-details__condation-text">
-                                                    <p>Free Shipping apply to all<br />orders over $100</p>
+                                                    <p>Free Shipping apply to all<br />orders over  ৳100</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -257,7 +257,7 @@ export default function ShopDetails2() {
                                                         </tr>
                                                         <tr>
                                                             <td className="add-info">Shipping</td>
-                                                            <td className="add-info-list"> Standard shipping: $5,95L</td>
+                                                            <td className="add-info-list"> Standard shipping:  ৳5,95L</td>
                                                         </tr>
                                                         <tr>
                                                             <td className="add-info">Care Info</td>
@@ -443,7 +443,7 @@ export default function ShopDetails2() {
                                             <h3 className="tpproduct__title"><Link href="/-details">Miko Wooden Bluetooth Speaker</Link></h3>
                                             <div className="tpproduct__priceinfo p-relative">
                                                 <div className="tpproduct__priceinfo-list">
-                                                    <span>$31.00</span>
+                                                    <span> ৳31.00</span>
                                                 </div>
                                                 <div className="tpproduct__cart">
                                                     <Link href="/cart"><i className="fal fa-shopping-cart" />Add To Cart</Link>
@@ -469,7 +469,7 @@ export default function ShopDetails2() {
                                             <h3 className="tpproduct__title"><Link href="/-details-2">Gorgeous Wooden Gloves</Link></h3>
                                             <div className="tpproduct__priceinfo p-relative">
                                                 <div className="tpproduct__priceinfo-list">
-                                                    <span>$31.00</span>
+                                                    <span> ৳31.00</span>
                                                 </div>
                                                 <div className="tpproduct__cart">
                                                     <Link href="/cart"><i className="fal fa-shopping-cart" />Add To Cart</Link>
@@ -495,7 +495,7 @@ export default function ShopDetails2() {
                                             <h3 className="tpproduct__title"><Link href="/-details">Pinkol Enormous Granite Bottle</Link></h3>
                                             <div className="tpproduct__priceinfo p-relative">
                                                 <div className="tpproduct__priceinfo-list">
-                                                    <span>$31.00</span>
+                                                    <span> ৳31.00</span>
                                                 </div>
                                                 <div className="tpproduct__cart">
                                                     <Link href="/cart"><i className="fal fa-shopping-cart" />Add To Cart</Link>
@@ -522,7 +522,7 @@ export default function ShopDetails2() {
                                             <h3 className="tpproduct__title"><Link href="/-details-2">Gorgeous Aluminum Table</Link></h3>
                                             <div className="tpproduct__priceinfo p-relative">
                                                 <div className="tpproduct__priceinfo-list">
-                                                    <span>$31.00</span>
+                                                    <span> ৳31.00</span>
                                                 </div>
                                                 <div className="tpproduct__cart">
                                                     <Link href="/cart"><i className="fal fa-shopping-cart" />Add To Cart</Link>
@@ -548,8 +548,8 @@ export default function ShopDetails2() {
                                             <h3 className="tpproduct__title"><Link href="/-details">Evo Lightweight Granite Shirt</Link></h3>
                                             <div className="tpproduct__priceinfo p-relative">
                                                 <div className="tpproduct__priceinfo-list">
-                                                    <span>$31.00</span>
-                                                    <span className="tpproduct__priceinfo-list-oldprice">$39.00</span>
+                                                    <span> ৳31.00</span>
+                                                    <span className="tpproduct__priceinfo-list-oldprice"> ৳39.00</span>
                                                 </div>
                                                 <div className="tpproduct__cart">
                                                     <Link href="/cart"><i className="fal fa-shopping-cart" />Add To Cart</Link>
@@ -576,7 +576,7 @@ export default function ShopDetails2() {
                                             <h3 className="tpproduct__title"><Link href="#">CLCo. Incredible Paper Car</Link></h3>
                                             <div className="tpproduct__priceinfo p-relative">
                                                 <div className="tpproduct__priceinfo-list">
-                                                    <span>$31.00</span>
+                                                    <span> ৳31.00</span>
                                                 </div>
                                                 <div className="tpproduct__cart">
                                                     <Link href="/cart"><i className="fal fa-shopping-cart" />Add To Cart</Link>

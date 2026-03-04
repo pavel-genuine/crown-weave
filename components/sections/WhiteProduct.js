@@ -65,7 +65,7 @@ export default function WhiteProduct() {
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
                                             <h5 className="whiteproduct__title"><Link href="/-details-2">CLCo. Incredible Paper Car</Link></h5>
-                                            <span>$31.00</span>
+                                            <span> $31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
@@ -82,7 +82,7 @@ export default function WhiteProduct() {
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
                                             <h5 className="whiteproduct__title"><Link href="/-details-2">Progash Durable Granite Hat</Link></h5>
-                                            <span>$31.00</span>
+                                            <span> $31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
@@ -99,7 +99,7 @@ export default function WhiteProduct() {
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
                                             <h5 className="whiteproduct__title"><Link href="/-details-2">Miklonda Co. Crafted Candles</Link></h5>
-                                            <span>$31.00</span>
+                                            <span> $31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
@@ -116,7 +116,7 @@ export default function WhiteProduct() {
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
                                             <h5 className="whiteproduct__title"><Link href="/-details-2">Weddonix Mediocre Silk Hat</Link></h5>
-                                            <span>$31.00</span>
+                                            <span> $31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
@@ -133,7 +133,7 @@ export default function WhiteProduct() {
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
                                             <h5 className="whiteproduct__title"><Link href="/-details-2">Gorgeous Wooden Gloves</Link></h5>
-                                            <span>$31.00</span>
+                                            <span> $31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
@@ -150,7 +150,7 @@ export default function WhiteProduct() {
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
                                             <h5 className="whiteproduct__title"><Link href="/-details-2">CLCo. Incredible Paper Car</Link></h5>
-                                            <span>$31.00</span>
+                                            <span> $31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
@@ -167,7 +167,7 @@ export default function WhiteProduct() {
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
                                             <h5 className="whiteproduct__title"><Link href="/-details-2">Progash Durable Granite Hat</Link></h5>
-                                            <span>$31.00</span>
+                                            <span> $31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />

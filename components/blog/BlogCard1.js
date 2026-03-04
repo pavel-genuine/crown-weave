@@ -5,8 +5,8 @@ export default function BlogCard1({ item }) {
         <>
             <article className="postbox__item format-image mb-60 transition-3">
                 <div className="postbox__thumb w-img mb-25">
-                    <Link href={`/blog/${item.id}`}>
-                        <img src={`/assets/img/blog/${item.img}`} alt="blog-thumg" />
+                    <Link href={`/blog/ ${item.id}`}>
+                        <img src={`/assets/img/blog/ ${item.img}`} alt="blog-thumg" />
                     </Link>
                 </div>
                 <div className="postbox__content">
@@ -26,13 +26,13 @@ export default function BlogCard1({ item }) {
                         </span>
                     </div>
                     <h3 className="postbox__title mb-20">
-                        <Link href={`/blog/${item.id}`}>{item.title}</Link>
+                        <Link href={`/blog/ ${item.id}`}>{item.title}</Link>
                     </h3>
                     <div className="postbox__text mb-30">
                         <p>Laboratories used for scientific research take many forms because of the differing requirements of specialists in the various fields of science and engineering. A physics laboratory</p>
                     </div>
                     <div className="postbox__read-more">
-                        <Link href={`/blog/${item.id}`} className="tp-btn tp-color-btn banner-animation">
+                        <Link href={`/blog/ ${item.id}`} className="tp-btn tp-color-btn banner-animation">
                             Reade More
                         </Link>
                     </div>

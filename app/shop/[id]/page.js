@@ -310,7 +310,7 @@ const ShopSingleDynamicV1 = () => {
                                                         <li>
                                                             <div className="comments-box d-flex">
                                                                 <div className="comments-avatar mr-25">
-                                                                    <img src="/assets/img//reviewer-01.png" alt="" />
+                                                                    <img src="/assets/img/reviewer-01.png" alt="" />
                                                                 </div>
                                                                 <div className="comments-text">
                                                                     <div className="comments-top d-sm-flex align-items-start justify-content-between mb-5">
@@ -337,7 +337,7 @@ const ShopSingleDynamicV1 = () => {
                                                         <li>
                                                             <div className="comments-box d-flex">
                                                                 <div className="comments-avatar mr-25">
-                                                                    <img src="/assets/img//reviewer-02.png" alt="" />
+                                                                    <img src="/assets/img/reviewer-02.png" alt="" />
                                                                 </div>
                                                                 <div className="comments-text">
                                                                     <div className="comments-top d-sm-flex align-items-start justify-content-between mb-5">
@@ -364,7 +364,7 @@ const ShopSingleDynamicV1 = () => {
                                                         <li>
                                                             <div className="comments-box d-flex">
                                                                 <div className="comments-avatar mr-25">
-                                                                    <img src="/assets/img//reviewer-03.png" alt="" />
+                                                                    <img src="/assets/img/reviewer-03.png" alt="" />
                                                                 </div>
                                                                 <div className="comments-text">
                                                                     <div className="comments-top d-sm-flex align-items-start justify-content-between mb-5">
@@ -460,7 +460,7 @@ const ShopSingleDynamicV1 = () => {
                                 <SwiperSlide>
                                     <div className="tpproduct pb-15 mb-30">
                                         <div className="tpproduct__thumb p-relative">
-                                            <Link href="/-details-2">
+                                            <Link href="/">
                                                 <img src="/assets/img/product/product-1.jpg" alt="product-thumb" />
                                                 <img className="product-thumb-secondary" src="/assets/img/product/product-2.jpg" alt="" />
                                             </Link>

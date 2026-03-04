@@ -4,7 +4,7 @@ import MobileMenu from "./MobileMenu"
 export default function Sidebar({ isMobileMenu, handleMobileMenu }) {
     return (
         <>
-            <div className={`tpsideinfo ${isMobileMenu ? "tp-sidebar-opened" : ""}`}>
+            <div className={`tpsideinfo  ${isMobileMenu ? "tp-sidebar-opened" : ""}`}>
                 <button className="tpsideinfo__close" onClick={handleMobileMenu}>Close<i className="fal fa-times ml-10" /></button>
                 <div className="tpsideinfo__search text-center pt-35">
                     <span className="tpsideinfo__search-title mb-20">What Are You Looking For?</span>
@@ -46,7 +46,7 @@ export default function Sidebar({ isMobileMenu, handleMobileMenu }) {
                     <Link href="/wishlist" target="_parent"><i className="fal fa-heart" /> Wishlist</Link>
                 </div>
             </div>
-            <div className={`body-overlay ${isMobileMenu ? "opened" : ""}`} onClick={handleMobileMenu} />
+            <div className={`body-overlay  ${isMobileMenu ? "opened" : ""}`} onClick={handleMobileMenu} />
         </>
     )
 }

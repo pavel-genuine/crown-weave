@@ -5,7 +5,7 @@ import WishListShow from "../elements/WishListShow"
 export default function HeaderTabSticky({ scroll, isMobileMenu, handleMobileMenu, isCartSidebar, handleCartSidebar }) {
     return (
         <>
-            <div id="header-tab-sticky" className={`tp-md-lg-header d-none d-md-block d-xl-none pt-30 pb-30 ${scroll ? "header-sticky" : ""}`}>
+            <div id="header-tab-sticky" className={`tp-md-lg-header d-none d-md-block d-xl-none pt-30 pb-30  ${scroll ? "header-sticky" : ""}`}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-3 col-md-4 d-flex align-items-center">

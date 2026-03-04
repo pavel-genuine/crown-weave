@@ -5,7 +5,7 @@ import WishListShow from "../elements/WishListShow"
 export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar }) {
     return (
         <>
-            <div id="header-sticky" className={`logo-area tp-sticky-one mainmenu-5 ${scroll ? "header-sticky" : ""}`}>
+            <div id="header-sticky" className={`logo-area tp-sticky-one mainmenu-5  ${scroll ? "header-sticky" : ""}`}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-2 col-lg-3">

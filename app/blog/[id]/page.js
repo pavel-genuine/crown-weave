@@ -25,7 +25,7 @@ export default function BlogDetails() {
                                     <div className="postbox__wrapper pr-20">
                                         <article className="postbox__item format-image mb-50 transition-3">
                                             <div className="postbox__thumb w-img mb-30">
-                                                <img src={`/assets/img/blog/${blogPost.img}`} alt="" />
+                                                <img src={`/assets/img/blog/ ${blogPost.img}`} alt="" />
                                             </div>
                                             <div className="postbox__content">
                                                 <div className="row">

@@ -19,13 +19,13 @@ const ColorLevel = () => {
                 <div className="form-check" key={item.id}>
                     <input
                         className="form-check-input"
-                        id={`color${item.id}`}
+                        id={`color ${item.id}`}
                         type="checkbox"
                         value={item.value}
                         checked={item.isChecked || false}
                         onChange={(e) => colorHandler(e, item.id)}
                     />
-                    <label className="form-check-label" htmlFor={`color${item.id}`}>
+                    <label className="form-check-label" htmlFor={`color ${item.id}`}>
                         {item.name}
                     </label>
                 </div>

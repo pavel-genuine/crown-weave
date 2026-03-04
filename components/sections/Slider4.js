@@ -47,7 +47,7 @@ export default function Slider4() {
                                                     <div className="tpslidertwo__slide-btn d-flex justify-content-center">
                                                         <Link className="tp-btn banner-animation tpslider-btn-4 mr-25" href="/">Shop Now <i className="fal fa-long-arrow-right" />
                                                         </Link>
-                                                        <span>Start From <br /> <b>৳ 3000</b></span>
+                                                        <span>Start From <br /> <b>$ 3000</b></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -70,7 +70,7 @@ export default function Slider4() {
                                                     <div className="tpslidertwo__slide-btn d-flex justify-content-center">
                                                         <Link className="tp-btn banner-animation tpslider-btn-4 mr-25" href="/">Shop Now <i className="fal fa-long-arrow-right" />
                                                         </Link>
-                                                        <span>Start From <br /> <b>৳ 3000</b></span>
+                                                        <span>Start From <br /> <b>$ 3000</b></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -93,7 +93,7 @@ export default function Slider4() {
                                                     <div className="tpslidertwo__slide-btn d-flex justify-content-center">
                                                         <Link className="tp-btn banner-animation tpslider-btn-4 mr-25" href="/">Shop Now <i className="fal fa-long-arrow-right" />
                                                         </Link>
-                                                        <span>Start From <br /> <b>৳ 3000</b></span>
+                                                        <span>Start From <br /> <b>$ 3000</b></span>
                                                     </div>
                                                 </div>
                                             </div>

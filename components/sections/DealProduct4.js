@@ -16,8 +16,8 @@ export default function DealProduct4() {
                         <div className="col-xxl-5 col-lg-6 col-md-12">
                             <div className="tpdealcontact pt-130 pb-140">
                                 <div className="tpdealcontact__price mb-5">
-                                    <span>$49.00</span>
-                                    <del>$59.00</del>
+                                    <span> $49.00</span>
+                                    <del> $59.00</del>
                                 </div>
                                 <div className="tpdealcontact__text mb-30">
                                     <h4 className="tpdealcontact__title mb-20"><Link href="/-details-2">Packet Grocery Products</Link></h4>

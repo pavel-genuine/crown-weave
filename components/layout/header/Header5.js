@@ -24,7 +24,7 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isCart
                             </div>
                             <div className="col-lg-6">
                                 <div className="header-welcome-text text-end">
-                                    <span>Enjoy free shipping on orders $100  up.</span>
+                                    <span>Enjoy free shipping on orders  $100  up.</span>
                                     <Link href="/-2">Shop Now<i className="fal fa-long-arrow-right" /></Link>
                                 </div>
                             </div>

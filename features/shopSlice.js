@@ -27,7 +27,7 @@ export const shopSlice = createSlice({
         deleteCart: (state, { payload }) => {
             state.cart = state.cart.filter((item) => item.id !== payload);
             localStorage.setItem("local-cart", JSON.stringify(state.cart));
-            toast.error(`Item ${payload} has been deleted.`);
+            toast.error(`Item  ${payload} has been deleted.`);
         },
         addQty: (state, { payload }) => {
             state.cart = state.cart.filter((item) => {
