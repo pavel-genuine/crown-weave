@@ -76,15 +76,9 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                     <div className="main-menu">
                                         <nav id="mobile-menu">
                                             <ul>
-                                                <li className="has-drodown">
+                                                <li className="has-drodow">
                                                     <Link href="/">Home</Link>
-                                                    <ul className="submenu">
-                                                        {/* <li><Link href="/">Home 1</Link></li> */}
-                                                        {/* <li><Link href="/index-2">Fashion Home</Link></li>
-                                                        <li><Link href="/index-3">Furniture Home</Link></li> */}
-                                                        {/* <li><Link href="/index-4">Home 2</Link></li> */}
-                                                        {/* <li><Link href="/index-5">Food Grocery</Link></li> */}
-                                                    </ul>
+
                                                 </li>
                                                 <li className="has-dropdown">
                                                     <Link href="/">Categories</Link>
