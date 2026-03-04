@@ -1,6 +1,6 @@
 'use client'
 import { useState } from "react"
-import FilterShopBox2 from "..//FilterShopBox2"
+import FilterShopBox2 from "../shop/FilterShopBox2"
 
 export default function Product4() {
     const [activeIndex, setActiveIndex] = useState(1)

@@ -1,5 +1,5 @@
 'use client'
-import { addCart } from "@/features/Slice"
+import { addCart } from "@/features/shopSlice"
 import { addQty, deleteWishlist } from "@/features/wishlistSlice"
 import Link from "next/link"
 import products from "@/data/products"

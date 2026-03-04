@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
-import { addQty, deleteCart } from "@/features/Slice";
+import { addQty, deleteCart } from "@/features/shopSlice";
 
 const CartItems = () => {
     const { cart } = useSelector((state) => state.shop) || {};
