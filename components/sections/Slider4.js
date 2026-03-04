@@ -80,7 +80,7 @@ export default function Slider4() {
                                                 <img src="assets/img/slider/slider-bg-05.png" alt="" />
                                             </div>
                                         </div>
-                                        <div className="tpsliderthree__pagination" />
+                                        {/* <div className="tpsliderthree__pagination" /> */}
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide className="platinam-light slider-bg-four">
@@ -103,7 +103,7 @@ export default function Slider4() {
                                                 <img src="assets/img/slider/slider-bg-06.png" alt="" />
                                             </div>
                                         </div>
-                                        <div className="tpsliderthree__pagination" />
+                                        {/* <div className="tpsliderthree__pagination" /> */}
                                     </div>
                                 </SwiperSlide>
                             </Swiper>
