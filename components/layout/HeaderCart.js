@@ -38,11 +38,11 @@ export default function HeaderCart({ isCartSidebar, handleCartSidebar }) {
                                                 </div>
                                             </div>
                                             <div className="tpcart__content">
-                                                <span className="tpcart__content-title"><Link href="/shop-details">{item.title}</Link>
+                                                <span className="tpcart__content-title"><Link href="/shop-details">Rug 1</Link>
                                                 </span>
                                                 <div className="tpcart__cart-price">
                                                     <span className="quantity">{item?.qty} x </span>
-                                                    <span className="new-price">$ {item?.price.max}</span>
+                                                    <span className="new-price">৳ 10000</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,7 +53,7 @@ export default function HeaderCart({ isCartSidebar, handleCartSidebar }) {
                         <div className="tpcart__checkout">
                             <div className="tpcart__total-price d-flex justify-content-between align-items-center">
                                 <span> Subtotal:</span>
-                                <span className="heilight-price"> ${total.toFixed(2)}</span>
+                                <span className="heilight-price"> ৳ {1000.00.toFixed(2)}</span>
                             </div>
                             <div className="tpcart__checkout-btn">
                                 <Link className="tpcart-btn mb-10" href="/cart">View Cart</Link>
@@ -62,7 +62,7 @@ export default function HeaderCart({ isCartSidebar, handleCartSidebar }) {
                         </div>
                     </div>
                     <div className="tpcart__free-shipping text-center">
-                        <span>Free shipping for orders <b>under 10km</b></span>
+                        <span>Free shipping for orders <b>under 20km</b></span>
                     </div>
                 </div>
             </div>
