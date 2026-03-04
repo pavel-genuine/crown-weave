@@ -14,7 +14,7 @@ export default function Footer1() {
                                             <Link href="/"><img style={{ width: '50%', }} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                                         </div>
                                         <div className="footer-content">
-                                            <p>Elegant pink origami design three <br /> dimensional view and decoration co-exist.
+                                            <p>Elegant  design three <br /> dimensional view and decoration co-exist.
                                                 <br /> Great for adding a decorative touch to <br /> any room’s decor.</p>
                                         </div>
                                     </div>
@@ -108,8 +108,7 @@ export default function Footer1() {
                             <div className="row">
                                 <div className="col-xl-6 col-lg-7 col-md-5 col-sm-12">
                                     <div className="footer-copyright__content">
-                                        <span>Copyright {new Date().getFullYear()} <Link href="/">©Ninico</Link>. All rights reserved. Developed by
-                                            <Link href="https://themeforest.net/user/alithemes/portfolio"> AliThemes</Link>.</span>
+                                        <span>Copyright {new Date().getFullYear()} <Link href="/">©Crown Weave</Link>. All rights reserved.</span>
                                     </div>
                                 </div>
                                 <div className="col-xl-6 col-lg-5 col-md-7 col-sm-12">

@@ -50,8 +50,8 @@ export default function DealProduct3() {
                                         <del>$59.00</del>
                                     </div>
                                     <div className="tpdealcontact__text mb-30">
-                                        <h4 className="tpdealcontact__title mb-10"><Link href="/-details">Pro2 Abstract Folded Pots</Link></h4>
-                                        <p>Elegant pink origami design three-dimensional view and decoration co-exist.
+                                        <h4 className="tpdealcontact__title mb-10"><Link href="/-details">Pro2 Abstract Design</Link></h4>
+                                        <p>Elegant  design three-dimensional view and decoration co-exist.
                                             Great for adding a decorative touch to any room’s decor.</p>
                                     </div>
                                     <div className="tpdealcontact__progress mb-30">
