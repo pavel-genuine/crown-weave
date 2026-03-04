@@ -15,7 +15,7 @@ export default function Banner3() {
                                         <span className="bannertext__subtitle">Hair Color</span>
                                         <h4 className="bannertext__title mb-40"><Link href="/shop-2">Reactive Providence <br /> Hair Color</Link></h4>
                                         <div className="bannertext__btn tpexclusive__btn">
-                                            <Link href="/shop" className="tp-btn  banner-animation">Shop Now</Link>
+                                            <Link href="/" className="tp-btn  banner-animation">Shop Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -39,9 +39,9 @@ export default function Banner3() {
                                     <img src="assets/img/banner/banner-thumb-03.jpg" alt="" />
                                     <div className="bannerbox">
                                         <h4 className="bannerbox__title banner-bottom-title">
-                                            <Link href="/shop">50% Offer On</Link>
+                                            <Link href="/">50% Offer On</Link>
                                         </h4>
-                                        <span className="bannerbox__subtitle banner-bottom-bg mb-130">Intensive Glow <Link href="/shop">C+ Serum</Link></span>
+                                        <span className="bannerbox__subtitle banner-bottom-bg mb-130">Intensive Glow <Link href="/">C+ Serum</Link></span>
                                         <div className="bannerbox__btn">
                                             <Link className="tp-btn banner-animation mr-25" href="/shop-2">Shop Now
                                                 <i className="fal fa-long-arrow-right" />

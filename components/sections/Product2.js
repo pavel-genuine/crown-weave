@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link"
 import { useState } from "react"
-import FilterShopBox2 from "..//FilterShopBox2"
+import FilterShopBox2 from "../shop/FilterShopBox2"
 
 export default function Product2() {
     const [activeIndex, setActiveIndex] = useState(1)
@@ -32,7 +32,7 @@ export default function Product2() {
                         </div>
                         <div className="col-lg-4 col-md-2">
                             <div className="tpproductall">
-                                <Link href="/">View All<i className="far fa-long-arrow-right" /></Link>
+                                <Link href="/shop">View All<i className="far fa-long-arrow-right" /></Link>
                             </div>
                         </div>
                     </div>

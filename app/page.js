@@ -1,22 +1,28 @@
+
 import Layout from "@/components/layout/Layout"
-import Category from "@/components/sections/Category"
-import DealProduct1 from "@/components/sections/DealProduct1"
+import Banner3 from "@/components/sections/Banner3"
+import Blog3 from "@/components/sections/Blog3"
+import Brand3 from "@/components/sections/Brand3"
+import DealProduct3 from "@/components/sections/DealProduct3"
+import Features from "@/components/sections/Features"
+// import PlatinamProduct from "@/components/sections/PlatinamProduct"
 import Product1 from "@/components/sections/Product1"
-import Shop from "@/components/sections/Shop"
-import Slider1 from "@/components/sections/Slider1"
-export const metadata = {
-    title: 'Crown Weave',
-    description: 'By Mamun Group',
-}
-export default function Home() {
+import Slider4 from "@/components/sections/Slider4"
+import Testimonial1 from "@/components/sections/Testimonial1"
+import Link from "next/link"
+export default function Home4() {
+
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1}>
-                <Slider1 />
-                <Category />
+            <Layout headerStyle={4} footerStyle={1}>
+                <Slider4 />
+                <Brand3 />
+                <Banner3 />
                 <Product1 />
-                <DealProduct1 />
-                <Shop />
+                {/* <Features /> */}
+                <DealProduct3 />
+                <Testimonial1 />
+                <Blog3 />
             </Layout>
         </>
     )
