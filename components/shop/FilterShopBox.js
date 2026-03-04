@@ -1,5 +1,5 @@
 'use client'
-import { addCart } from "@/features/Slice"
+import { addCart } from "@/features/shopSlice"
 import { addWishlist } from "@/features/wishlistSlice"
 import { Fragment, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
@@ -17,8 +17,8 @@ import {
     clearCategoryToggle,
     clearColorToggle,
 } from "../../features/productSlice"
-import ShopCard from "./Card"
-import ShopCardList from "./CardList"
+import ShopCard from "./ShopCard"
+import ShopCardList from "./ShopCardList"
 
 const FilterShopBox = () => {
     const { shopList, shopSort } = useSelector((state) => state.filter)
