@@ -33,7 +33,7 @@ export default function Slider4() {
                 <div className="container">
                     <div className="platinamborder p-relative">
                         <div className="platinam-slidershape d-none d-md-block">
-                            <img src="assets/img/slider/fasion-tag-03.png" alt="tag" />
+                            {/* <img src="assets/img/slider/fasion-tag-03.png" alt="tag" /> */}
                         </div>
                         <div className="swiper-container sliderthree-active">
                             <Swiper {...swiperOptions}>
