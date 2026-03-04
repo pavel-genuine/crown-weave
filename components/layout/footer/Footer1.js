@@ -26,8 +26,8 @@ export default function Footer1() {
                                             <ul>
                                                 <li><Link href="#">Custom Service</Link></li>
                                                 <li><Link href="#">FAQs</Link></li>
-                                                <li><Link href="/track">Ordering Tracking</Link></li>
-                                                <li><Link href="/contact">Contacts</Link></li>
+                                                <li><Link href="/">Ordering Tracking</Link></li>
+                                                <li><Link href="/">Contacts</Link></li>
                                                 <li><Link href="#">Events</Link></li>
                                             </ul>
                                         </div>
@@ -83,7 +83,7 @@ export default function Footer1() {
                                             <i className="far fa-phone" />
                                         </div>
                                         <div className="footer-cta__text">
-                                            <Link href="/tel:0123456">980. 029. 666. 99</Link>
+                                            <Link href="/">980. 029. 666. 99</Link>
                                             <span>Working 8:00 - 22:00</span>
                                         </div>
                                     </div>

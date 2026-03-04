@@ -5,7 +5,7 @@ import WishListShow from "../elements/WishListShow"
 export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar }) {
     return (
         <>
-            <div id="header-sticky" className={`logo-area tp-sticky-one mainmenu-5  ${scroll ? "header-sticky" : ""}`}>
+            <div id="header-sticky" className={`logo-area tp-sticky-one mainmenu-5 ${scroll ? "header-sticky" : ""}`}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-2 col-lg-3">
@@ -17,15 +17,9 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                             <div className="main-menu">
                                 <nav>
                                     <ul>
-                                        <li className="has-drodown">
+                                        <li className="has-drodow">
                                             <Link href="/">Home</Link>
-                                            <ul className="submenu">
-                                                {/* <li><Link href="/">Home 1</Link></li> */}
-                                                {/* <li><Link href="/index-2">Fashion Home</Link></li>
-                                                        <li><Link href="/index-3">Furniture Home</Link></li> */}
-                                                {/* <li><Link href="/index-4">Home 2</Link></li> */}
-                                                {/* <li><Link href="/index-5">Food Grocery</Link></li> */}
-                                            </ul>
+
                                         </li>
                                         <li className="has-dropdown">
                                             <Link href="/">Categories</Link>
@@ -111,8 +105,8 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                         <i className="fal fa-shopping-cart" />
                                         <CartShow />
                                     </button>
-                                    <Link href="/sign-in"><i className="fal fa-user" /></Link>
-                                    <Link href="/wishlist" className="header-cart p-relative tp-cart-toggle">
+                                    <Link href="/"><i className="fal fa-user" /></Link>
+                                    <Link href="/" className="header-cart p-relative tp-cart-toggle">
                                         <i className="fal fa-heart" />
                                         <WishListShow />
                                     </Link>
