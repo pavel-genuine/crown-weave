@@ -10,6 +10,11 @@ import Product1 from "@/components/sections/Product1"
 import Slider4 from "@/components/sections/Slider4"
 import Testimonial1 from "@/components/sections/Testimonial1"
 import Link from "next/link"
+
+export const metadata = {
+    title: 'Crown Weave',
+    description: 'By Mamun Group',
+}
 export default function Home4() {
 
     return (
