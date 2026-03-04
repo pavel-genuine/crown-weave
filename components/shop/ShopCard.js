@@ -6,7 +6,7 @@ const ShopCard = ({ item, addToCart, addToWishlist }) => {
                 <div className="tpproduct tpproductitem mb-15 p-relative">
                     <div className="tpproduct__thumb">
                         <div className="tpproduct__thumbitem p-relative">
-                            <Link href={`//${item.id}`}>
+                            <Link href={`/`}>
                                 <img src={`/assets/img/product/${item.imgf}`} alt="product-thumb" />
                                 <img className="thumbitem-secondary" src={`/assets/img/product/${item.imgb}`} alt="product-thumb" />
                             </Link>
@@ -21,7 +21,7 @@ const ShopCard = ({ item, addToCart, addToWishlist }) => {
                         </div>
                     </div>
                     <div className="tpproduct__content-area">
-                        <h3 className="tpproduct__title mb-5"><Link href={`//${item.id}`}>{item.title}</Link></h3>
+                        <h3 className="tpproduct__title mb-5"><Link href={`/`}>{item.title}</Link></h3>
                         <div className="tpproduct__priceinfo p-relative">
                             <div className="tpproduct__ammount">
                                 <span>৳{item.price.max}.00</span>
@@ -31,25 +31,25 @@ const ShopCard = ({ item, addToCart, addToWishlist }) => {
                     <div className="tpproduct__ratingarea">
                         <div className="d-flex align-items-center justify-content-between">
                             <div className="tpproductdot">
-                                <Link className="tpproductdot__variationitem" href={`//${item.id}`}>
+                                <Link className="tpproductdot__variationitem" href={`/`}>
                                     <div className="tpproductdot__termshape">
                                         <span className="tpproductdot__termshape-bg" />
                                         <span className="tpproductdot__termshape-border" />
                                     </div>
                                 </Link>
-                                <Link className="tpproductdot__variationitem" href={`//${item.id}`}>
+                                <Link className="tpproductdot__variationitem" href={`/`}>
                                     <div className="tpproductdot__termshape">
                                         <span className="tpproductdot__termshape-bg red-product-bg" />
                                         <span className="tpproductdot__termshape-border red-product-border" />
                                     </div>
                                 </Link>
-                                <Link className="tpproductdot__variationitem" href={`//${item.id}`}>
+                                <Link className="tpproductdot__variationitem" href={`/`}>
                                     <div className="tpproductdot__termshape">
                                         <span className="tpproductdot__termshape-bg orange-product-bg" />
                                         <span className="tpproductdot__termshape-border orange-product-border" />
                                     </div>
                                 </Link>
-                                <Link className="tpproductdot__variationitem" href={`//${item.id}`}>
+                                <Link className="tpproductdot__variationitem" href={`/`}>
                                     <div className="tpproductdot__termshape">
                                         <span className="tpproductdot__termshape-bg purple-product-bg" />
                                         <span className="tpproductdot__termshape-border purple-product-border" />

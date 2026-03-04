@@ -98,7 +98,7 @@ const FilterShopBox = () => {
 
     // clear all filters
     const clearAll = () => {
-        dispatch(addprice({ min: 0, max: 100 }))
+        dispatch(addprice({ min: 0, max: 100000 }))
 
 
 
