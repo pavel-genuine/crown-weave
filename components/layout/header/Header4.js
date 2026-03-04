@@ -31,7 +31,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                         </div>
                     </div>
                 </div>
-                <div className="mainmenuarea platinam-menuarea mt-30 d-none d-xl-block">
+                <div className="mainmenuarea platinam-menuarea mt-10 d-none d-xl-block">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-5">
@@ -68,7 +68,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                         </div>
                     </div>
                 </div>
-                <div className="main-menu-area mt-15 d-none d-xl-block">
+                <div className="main-menu-area mt-5 d-none d-xl-block">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-xl-6">
