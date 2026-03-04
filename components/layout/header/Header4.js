@@ -13,8 +13,8 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="header-welcome-text">
-                                    <span>Free shipping on all U.S orders</span>
-                                    <b> ৳ 2000+</b>
+                                    <span>Free shipping on all BD orders</span>
+                                    <b> ৳ 5000+</b>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 d-none d-sm-block">
