@@ -411,13 +411,14 @@ input[type="color"] {
     font-weight: 600;
     padding: 17px 33px;
     border-radius: 6px;
-    color: var(--tp-text-body);
+    color: #c69e47;
     background: var(--tp-common-white);
     line-height: 1.2;
+    /* border: 1px solid #c69e47; */
 }
 
 .tp-btn:hover {
-    color: var(--tp-common-white);
+    color: white;
     background-color: var(--tp-text-primary);
 }
 
@@ -1637,7 +1638,8 @@ input[type="color"] {
     left: 0;
     min-width: 250px;
     padding: 15px 0;
-    background-color: var(--tp-common-white);
+    background: #fffbfbee;
+    /* backdrop-filter: blur(5px); */
     z-index: 2;
     transition: opacity 0.4s cubic-bezier(0.19, 1, 0.22, 1), visibility 0.4s cubic-bezier(0.19, 1, 0.22, 1), transform 0.4s cubic-bezier(0.19, 1, 0.22, 1);
     box-shadow: 0px 8px 20px rgba(61, 110, 168, 0.1);
@@ -2508,8 +2510,10 @@ a.add-to-cart {
     width: 100%;
     box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
     z-index: 99;
+    /* color: white; */
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-    background: var(--tp-common-white);
+    background: #fffbfbc6;
+    backdrop-filter: blur(5px);
 }
 
 .header-sticky .tp-bt-btn {
@@ -5308,7 +5312,7 @@ a.add-to-cart {
     height: 100%;
     width: 100%;
     background-color: var(--tp-common-black);
-    opacity: 0.5;
+    opacity: 0.35;
 }
 
 .bannertext {

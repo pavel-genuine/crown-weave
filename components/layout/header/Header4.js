@@ -7,13 +7,13 @@ import HeaderTabSticky from "../HeaderTabSticky"
 export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCartSidebar, handleCartSidebar }) {
     return (
         <>
-            <header className="platinam-light">
-                <div className="header-top platinam-bg platinam-header-top">
+            <header style={{ backgroundImage: "url('assets/img/bg-pattern.png')", }} className=" ">
+                <div style={{ backgroundColor: '#f0e2dded' }} className="header-top  platinam-header-top">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="header-welcome-text">
-                                    <span>Free shipping on all BD orders</span>
+                                    <span>Free shipping in all over BD orders</span>
                                     <b> ৳ 5000+</b>
                                 </div>
                             </div>

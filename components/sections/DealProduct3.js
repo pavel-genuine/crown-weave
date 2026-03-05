@@ -25,7 +25,10 @@ export default function DealProduct3() {
     const currentTime = new Date()
     return (
         <>
-            <section className="dealproduct-area platinam-light pt-80 pb-10  p-relative fix">
+            <section style={{
+                backgroundImage: "url('assets/img/bg-pattern.png')", backgroundSize: 'cover', // Optional: 'cover' ensures the image covers the entire area
+                backgroundRepeat: 'no-repeat', // Set to 'no-repeat' to stop the image from tiling
+            }} className=" pt-80 pb-10  p-relative fix">
                 <div className="container-fluid g-0">
                     <div className="mp-marque-slider">
                         <div className="swiper-container swiper--top">
