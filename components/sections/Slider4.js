@@ -37,9 +37,9 @@ export default function Slider4() {
                         </div>
                         <div className="swiper-container sliderthree-active">
                             <Swiper {...swiperOptions}>
-                                <SwiperSlide className="  slider-bg-four">
+                                <SwiperSlide style={{ backgroundImage: "url('assets/img/slider/1.png')" }} className="  slider-bg-four">
                                     <div className="row align-items-center">
-                                        <div className="col-xl-6 col-lg-6 col-md-12">
+                                        <div className="">
                                             <div className="tpslidertwo__item slidre-item-4 ml-145 text-center">
                                                 <div className="tpslidertwo__content">
                                                     <h3 className="tpslidertwo__title mb-10">Will Never <br /> Compromise Quality</h3>
@@ -52,17 +52,13 @@ export default function Slider4() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-xl-6 col-lg-6 d-none d-lg-block">
-                                            <div className="tpslidertwo__img p-relative pt-80 pb-80">
-                                                <img src="assets/img/slider/slider-bg-04.png" alt="" />
-                                            </div>
-                                        </div>
+
                                         <div className="tpsliderthree__pagination" />
                                     </div>
                                 </SwiperSlide>
-                                <SwiperSlide className="  slider-bg-four">
+                                <SwiperSlide style={{ backgroundImage: "url('assets/img/slider/3.png')" }} className="  slider-bg-four">
                                     <div className="row align-items-center">
-                                        <div className="col-xl-6 col-lg-6 col-md-12">
+                                        <div className="">
                                             <div className="tpslidertwo__item slidre-item-4 ml-145 text-center">
                                                 <div className="tpslidertwo__content">
                                                     <h3 className="tpslidertwo__title mb-10">Will Never <br /> Compromise Comfort</h3>
@@ -75,17 +71,16 @@ export default function Slider4() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-xl-6 col-lg-6 d-none d-lg-block">
-                                            <div className="tpslidertwo__img p-relative pt-80 pb-80">
-                                                <img src="assets/img/slider/slider-bg-05.png" alt="" />
-                                            </div>
-                                        </div>
-                                        {/* <div className="tpsliderthree__pagination" /> */}
+
+                                        <div className="tpsliderthree__pagination" />
                                     </div>
                                 </SwiperSlide>
-                                <SwiperSlide className="  slider-bg-four">
+
+
+
+                                <SwiperSlide style={{ backgroundImage: "url('assets/img/slider/2.png')" }} className="  slider-bg-four">
                                     <div className="row align-items-center">
-                                        <div className="col-xl-6 col-lg-6 col-md-12">
+                                        <div className="">
                                             <div className="tpslidertwo__item slidre-item-4 ml-145 text-center">
                                                 <div className="tpslidertwo__content">
                                                     <h3 className="tpslidertwo__title mb-10">Will Never <br /> Compromise Beauty</h3>
@@ -98,14 +93,11 @@ export default function Slider4() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-xl-6 col-lg-6 d-none d-lg-block">
-                                            <div className="tpslidertwo__img p-relative pt-80 pb-80">
-                                                <img src="assets/img/slider/slider-bg-06.png" alt="" />
-                                            </div>
-                                        </div>
-                                        {/* <div className="tpsliderthree__pagination" /> */}
+
+                                        <div className="tpsliderthree__pagination" />
                                     </div>
                                 </SwiperSlide>
+
                             </Swiper>
                         </div>
                     </div>

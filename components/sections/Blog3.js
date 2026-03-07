@@ -34,7 +34,7 @@ export default function Blog3() {
                                         </ul>
                                     </div>
                                     <h4 className="blogitem__title mb-15">
-                                        <Link href="/">Here is why you cannot miss EORS 15</Link>
+                                        <Link href="/">Here is why you cannot the vibe</Link>
                                     </h4>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ export default function Blog3() {
                                         </ul>
                                     </div>
                                     <h4 className="blogitem__title">
-                                        <Link href="/">Myntra launches international brand DeFacto</Link>
+                                        <Link href="/">MG launches carpet brand Crown Weave</Link>
                                     </h4>
                                 </div>
                             </div>
