@@ -25,11 +25,11 @@ export default function Home4() {
                 {/* <Brand3 /> */}
                 <Banner3 />
                 <Product1 />
-                {/* <Exclusive /> */}
+                <Exclusive />
 
                 {/* <Features /> */}
                 <DealProduct3 />
-                <Testimonial1 />
+                {/* <Testimonial1 /> */}
 
                 <Blog3 />
             </Layout>

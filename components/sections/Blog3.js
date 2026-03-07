@@ -34,7 +34,7 @@ export default function Blog3() {
                                         </ul>
                                     </div>
                                     <h4 className="blogitem__title mb-15">
-                                        <Link href="/">Here is why you cannot the vibe</Link>
+                                        <Link href="/">Here is why you cannot miss the vibe</Link>
                                     </h4>
                                 </div>
                             </div>

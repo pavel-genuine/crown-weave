@@ -46,7 +46,7 @@ export default function Product1() {
 
 
                         </div>
-                        <div className="row mb-40 mt-20">
+                        <div className="row mb-20 mt-10">
 
                             <div className="col-md-6 col-12"></div>
                             <div className="col-md-6 col-12">

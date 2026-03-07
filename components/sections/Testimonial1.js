@@ -82,7 +82,7 @@ export default function Testimonial1() {
                                         <img src="/assets/img/svg/testi01.svg" alt="" className="fn__svg" />
                                     </div>
                                     <div className="tptesti__content pb-5">
-                                        <p>“We are the preferred choice by many car owners because our experience and knowledge is self-evident.For your car we will do everything – advice ”
+                                        <p>“We are the preferred choice by many home owners because our experience and knowledge is self-evident.For your home we will do everything – advice ”
                                         </p>
                                     </div>
                                     <div className="tptesti__avata d-flex align-items-center justify-content-center">
@@ -123,7 +123,7 @@ export default function Testimonial1() {
                                         <img src="/assets/img/svg/testi01.svg" alt="" className="fn__svg" />
                                     </div>
                                     <div className="tptesti__content pb-5">
-                                        <p>“We are the preferred choice by many car owners because our experience and knowledge is self-evident.For your car we will do everything – advice ”
+                                        <p>“We are the preferred choice by many home owners because our experience and knowledge is self-evident.For your home we will do everything – advice ”
                                         </p>
                                     </div>
                                     <div className="tptesti__avata d-flex align-items-center justify-content-center">
