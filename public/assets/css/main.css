@@ -5312,7 +5312,7 @@ a.add-to-cart {
     height: 100%;
     width: 100%;
     background-color: var(--tp-common-black);
-    opacity: 0.35;
+    opacity: 0.5;
 }
 
 .bannertext {

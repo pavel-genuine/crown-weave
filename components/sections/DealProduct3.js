@@ -72,9 +72,18 @@ export default function DealProduct3() {
                             </div>
                             <div className="col-xxl-7 col-xl-6 col-lg-6 col-md-12">
                                 <div className="tpdealproduct mb-30">
-                                    <div className="tpdealproduct__thumb">
-                                        <img src="assets/img/floded/floded-03.png" alt="dealproduct-thumb" />
-                                    </div>
+                                    <div className="">
+
+
+
+                                        <video style={{ objectFit: 'cover', borderRadius: '10px' }} autoPlay
+                                            muted
+                                            loop
+                                            playsInline
+                                            width="600" height="700" >
+                                            <source src="assets/img/video1.mp4" type="video/mp4" />
+
+                                        </video></div>
                                 </div>
                             </div>
                         </div>
