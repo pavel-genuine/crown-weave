@@ -16,7 +16,7 @@ export default function Exclusive() {
                                     <h4 className="tpexclusive__subtitle">Dive Into</h4>
                                     <h3 className="tpexclusive__title mb-30">Designers <br /> Decks Exclusively</h3>
                                     <div className="tpexclusive__btn">
-                                        <Link href="/" className="tp-btn banner-animation">Shop Now</Link>
+                                        <Link style={{ backgroundColor: '#c69e47', border: '1px solid #c69e47' }} href="/" className="tp-btn banner-animation">Shop Now</Link>
                                     </div>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@ export default function Exclusive() {
                                     <h3 className="tpexclusive__title ">Feel the elegence</h3>
                                     {/* <p>New Modern Stylist Fashionable <br /> rugs</p> */}
                                     <div className="tpexclusive__btn">
-                                        <Link href="/" className="tp-btn banner-animation">Shop Now</Link>
+                                        <Link style={{ backgroundColor: '#c69e47', border: '1px solid #c69e47' }} href="/" className="tp-btn banner-animation">Shop Now</Link>
                                     </div>
                                 </div>
 
