@@ -34,10 +34,10 @@ export default function DealProduct3() {
                         <div className="swiper-container swiper--top">
                             <Swiper {...swiperOptions}>
                                 <SwiperSlide>
-                                    <p>Great Deal Of The Day <span><Link href="/">Shop Now</Link></span></p>
+                                    <p>Great Deal Of The Day <span><Link href="/">Start Now</Link></span></p>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <p>Great Deal Of The Day <span><Link href="/">Shop Now</Link></span></p>
+                                    <p>Great Deal Of The Day <span><Link href="/">Start Now</Link></span></p>
                                 </SwiperSlide>
                             </Swiper>
                         </div>
@@ -49,12 +49,17 @@ export default function DealProduct3() {
                             <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-12">
                                 <div className="tpdealcontact tp-red-deal-text pt-30 mb-30">
                                     <div className="tpdealcontact__price mb-5">
-                                        <span> $49.00</span>
-                                        <del> $59.00</del>
+                                        <span> Win Win Deal </span>
+                                        <del> Competition</del>
                                     </div>
                                     <div className="tpdealcontact__text mb-30">
-                                        <h4 className="tpdealcontact__title mb-10"><Link href="/-details">Pro2 Abstract Design</Link></h4>
-                                        <p>Elegant  design three-dimensional view and decoration co-exist.
+                                        <h4 className="tpdealcontact__title mb-10"><Link href="/-details">Open A Trade Account
+                                        </Link></h4>
+                                        <p> When you join our trade program, you become part of our family.
+
+                                            <br />
+                                            <br />
+                                            Elegant  design three-dimensional view and decoration co-exist.
                                             Great for adding a decorative touch to any room’s decor.</p>
                                     </div>
                                     <div className="tpdealcontact__progress mb-30">
@@ -68,8 +73,13 @@ export default function DealProduct3() {
                                         </div>
                                         <i>Remains until the <br /> end of the offer</i>
                                     </div>
+
                                 </div>
+                                <Link className="tp-btn banner-animation tpslider-btn-4 mr-25" href="/">Start Now <i className="fal fa-long-arrow-right" />
+                                </Link>
                             </div>
+
+
                             <div className="col-xxl-7 col-xl-6 col-lg-6 col-md-12">
                                 <div className="tpdealproduct mb-30">
                                     <div className="">
