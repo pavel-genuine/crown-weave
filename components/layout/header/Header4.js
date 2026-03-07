@@ -14,7 +14,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="header-welcome-text">
                                     <span>Free shipping in all over BD orders</span>
-                                    <b> ৳ 4000+</b>
+                                    <b> ৳ 5000+</b>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 d-none d-sm-block">
@@ -31,7 +31,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                         </div>
                     </div>
                 </div>
-                <div className="mainmenuarea platinam-menuarea mt-5 d-none d-xl-block">
+                <div className="mainmenuarea platinam-menuarea mt-15 d-none d-xl-block">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-5">

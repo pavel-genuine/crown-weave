@@ -21,7 +21,7 @@ export default function MobileMenu() {
     }
     return (
         <>
-            <div style={{ backgroundColor: 'red' }} className="mobile-menu mean-container">
+            <div className="mobile-menu mean-container">
                 <div className="mean-bar">
                     <Link href="#" className="meanmenu-reveal">
                         <span><span><span /></span></span>

@@ -39,7 +39,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
         })
     }, [])
     return (
-        <>
+        <div >
             {/* <PageHead headTitle={headTitle} /> */}
             <DataBg />
             {!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isCartSidebar={isCartSidebar} handleCartSidebar={handleCartSidebar} />}
@@ -61,6 +61,6 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
             {footerStyle == 2 ? < Footer2 /> : null}
 
             <BackToTop />
-        </>
+        </div>
     )
 }
