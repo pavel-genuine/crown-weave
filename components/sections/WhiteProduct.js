@@ -55,7 +55,7 @@ export default function WhiteProduct() {
                             <div className="tpsection mb-20 d-flex align-items-center">
                                 <div >
                                     <h4 style={{ color: 'grey' }} className="tpsection__title">Explore  <br /></h4>
-                                    <h4 style={{ color: '#c69e47' }} className={`${rock.className} tpsection__title`} > Top Sale Products</h4>
+                                    <h4 style={{ color: '#c69e47' }} className={`${rock.className} tpsection__title`} > Top Rated Products</h4>
                                 </div>
                                 <svg style={{ margin: '-20px' }} width="168" height="105" viewBox="0 0 168 105" fill="none" xmlns="http://www.w3.org/2000/svg" >
                                     <path
@@ -88,7 +88,7 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/-details-2">CLCo. Incredible Paper Car</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="/">Rug-1</Link></h5>
                                             <span> ৳9000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -105,12 +105,12 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="#">Progash Durable Granite Hat</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="#">Rug-2</Link></h5>
                                             <span> ৳7000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
-                                            <span>(81)</span>
+                                            <span>(98)</span>
                                         </div>
                                     </div>
                                 </div>
@@ -122,12 +122,12 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">Miklonda Co. Crafted Candles</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="/">Rug-3</Link></h5>
                                             <span> ৳7000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
-                                            <span>(81)</span>
+                                            <span>(95)</span>
                                         </div>
                                     </div>
                                 </div>
@@ -139,12 +139,12 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">Weddonix Mediocre Silk Hat</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="/">Rug-4</Link></h5>
                                             <span> ৳7000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
-                                            <span>(81)</span>
+                                            <span>(80)</span>
                                         </div>
                                     </div>
                                 </div>
@@ -156,12 +156,12 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">Gorgeous Wooden Gloves</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="/">Rug-5</Link></h5>
                                             <span> ৳7000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
-                                            <span>(81)</span>
+                                            <span>(88)</span>
                                         </div>
                                     </div>
                                 </div>
@@ -173,12 +173,12 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">CLCo. Incredible Paper Car</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="/">Rug-7</Link></h5>
                                             <span> ৳7000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
                                             <i className="fas fa-star" />
-                                            <span>(81)</span>
+                                            <span>(89)</span>
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">Progash Durable Granite Hat</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="/">Rug-6</Link></h5>
                                             <span> ৳9000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
