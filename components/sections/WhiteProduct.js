@@ -88,7 +88,7 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">Rug-1</Link></h5>
+                                            <h5 className="whiteproduct__title mt-10 mb-10"><Link href="/">Rug-1</Link></h5>
                                             <span> ৳9000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -105,7 +105,7 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="#">Rug-2</Link></h5>
+                                            <h5 className="whiteproduct__title mt-10 mb-10"><Link href="#">Rug-2</Link></h5>
                                             <span> ৳7000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -122,7 +122,7 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">Rug-3</Link></h5>
+                                            <h5 className="whiteproduct__title mt-10 mb-10"><Link href="/">Rug-3</Link></h5>
                                             <span> ৳7000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -139,7 +139,7 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">Rug-4</Link></h5>
+                                            <h5 className="whiteproduct__title mt-10 mb-10"><Link href="/">Rug-4</Link></h5>
                                             <span> ৳7000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -156,7 +156,7 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">Rug-5</Link></h5>
+                                            <h5 className="whiteproduct__title mt-10 mb-10"><Link href="/">Rug-5</Link></h5>
                                             <span> ৳7000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -173,7 +173,7 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">Rug-7</Link></h5>
+                                            <h5 className="whiteproduct__title mt-10 mb-10"><Link href="/">Rug-7</Link></h5>
                                             <span> ৳7000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -190,7 +190,7 @@ export default function WhiteProduct() {
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/">Rug-6</Link></h5>
+                                            <h5 className="whiteproduct__title mt-10 mb-10"><Link href="/">Rug-6</Link></h5>
                                             <span> ৳9000.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
