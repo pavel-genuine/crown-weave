@@ -28,7 +28,7 @@ export default function DealProduct3() {
             <section style={{
                 backgroundImage: "url('assets/img/bg-pattern.png')", backgroundSize: 'cover', // Optional: 'cover' ensures the image covers the entire area
                 backgroundRepeat: 'no-repeat', // Set to 'no-repeat' to stop the image from tiling
-            }} className=" pt-80 pb-10  p-relative fix">
+            }} className="  p-relative fix">
                 <div className="container-fluid g-0">
                     <div className="mp-marque-slider">
                         <div className="swiper-container swiper--top">
@@ -86,11 +86,11 @@ export default function DealProduct3() {
 
 
 
-                                        <video style={{ objectFit: 'cover', borderRadius: '10px' }} autoPlay
+                                        <video style={{ objectFit: 'cover', borderRadius: '10px', marginTop: '20px' }} autoPlay
                                             muted
                                             loop
                                             playsInline
-                                            width="600" height="700" >
+                                            width="750" height="600" >
                                             <source src="assets/img/video1.mp4" type="video/mp4" />
 
                                         </video></div>

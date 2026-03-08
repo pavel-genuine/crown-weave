@@ -10,6 +10,7 @@ import Features from "@/components/sections/Features"
 import Product1 from "@/components/sections/Product1"
 import Slider4 from "@/components/sections/Slider4"
 import Testimonial1 from "@/components/sections/Testimonial1"
+import WhiteProduct from "@/components/sections/WhiteProduct"
 import Link from "next/link"
 
 export const metadata = {
@@ -26,7 +27,7 @@ export default function Home4() {
                 <Banner3 />
                 <Product1 />
                 <Exclusive />
-
+                <WhiteProduct />
                 {/* <Features /> */}
                 <DealProduct3 />
                 {/* <Testimonial1 /> */}

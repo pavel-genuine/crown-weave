@@ -6,7 +6,7 @@ import { Rochester } from 'next/font/google'
 
 const rock = Rochester({ subsets: ['latin'], weight: '400' })
 
-export default function Product1() {
+export default function FeatureProducts() {
     const [activeIndex, setActiveIndex] = useState(1)
     const handleOnClick = (index) => {
         setActiveIndex(index)

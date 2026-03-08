@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Banner3() {
     return (
         <>
-            <section className="banner-area pt-15">
+            <section className="banner-area pt-15 pb-95">
                 <div className="bannerborder">
                     <div className="container-fluid">
                         <div className="row gx-3">
