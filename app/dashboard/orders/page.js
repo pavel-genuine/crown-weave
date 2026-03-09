@@ -136,7 +136,11 @@ export default function Page() {
 
                                     </div>
                                     <div className="col-sm-6">
-                                        <div className="product-navtabs d-flex justify-content-end align-items-center">
+                                        <div className="product-navtabs d-flex justify-content-between align-items-center ">
+                                            <label for="start">Choose a date:</label>
+                                            <input type="date" id="start" name="trip-start"
+
+                                                min="1920-01-01" max="2120-01-01" />
                                             <div className="tp-shop-selector">
 
 
