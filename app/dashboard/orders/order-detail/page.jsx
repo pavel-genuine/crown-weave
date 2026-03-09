@@ -69,7 +69,7 @@ export default function Page() {
                     style={{ backgroundColor: "green", color: "white" }}
                     className="btn m-b15 me-xl-3 me-2 btnhover20"
                   >
-                    Scan The Barcode / Proceed to Confirmation
+                    Scan Barcode / Proceed to Confirmation
                   </Link>
                   <button
                     // disabled

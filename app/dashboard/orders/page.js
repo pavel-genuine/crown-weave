@@ -10,7 +10,7 @@ export const AccoountOrdersTable = [
         amount: "tk 3580.75",
         status: { label: "In Queue", badgeClass: "bg-primary" },
         viewLink: "/dashboard/orders/order-detail",
-        img: "/../assets/img/product/product-2.jpg"
+        img: "/../assets/img/product/product-12.jpg"
     },
     {
         id: "#34VB5540K83",
@@ -18,7 +18,7 @@ export const AccoountOrdersTable = [
         amount: "tk 3580.75",
         status: { label: "In Queue", badgeClass: "bg-primary" },
         viewLink: "/dashboard/orders/order-detail",
-        img: "/../assets/img/product/product-2.jpg"
+        img: "/../assets/img/product/product-16.jpg"
     },
     {
         id: "#34VB5540K83",
