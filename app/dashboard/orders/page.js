@@ -1,0 +1,124 @@
+"use client";
+import Link from "next/link";
+import CommanBanner from "@/components/dashboard/CommonBanner";
+import CommanSidebar from "@/components/dashboard/CommonSideBar";
+
+export const AccoountOrdersTable = [
+    {
+        id: "#34VB5540K83",
+        date: "Jan 21, 2025",
+        amount: "tk 3580.75",
+        status: { label: "In Progress", badgeClass: "bg-info" },
+        viewLink: "/dashboard/orders/order-detail",
+    },
+    {
+        id: "#78A643CD409",
+        date: "Feb 09, 2025",
+        amount: "tk 7060.50",
+        status: { label: "Canceled", badgeClass: "bg-danger" },
+        viewLink: "/dashboard/orders/order-detail",
+    },
+    {
+        id: "#112P45A90V2",
+        date: "Jan 15, 2025",
+        amount: "tk 1,2604.00",
+        status: { label: "Delayed", badgeClass: "bg-warning" },
+        viewLink: "/dashboard/orders/order-detail",
+    },
+    {
+        id: "#28BA67U0981",
+        date: "Jan 19, 2025",
+        amount: "tk 1098.35",
+        status: { label: "Delivered", badgeClass: "bg-success" },
+        viewLink: "/dashboard/orders/order-detail",
+    },
+    {
+        id: "#502TR872W2",
+        date: "Jan 04, 2025",
+        amount: "tk 12,133.90",
+        status: { label: "Delivered", badgeClass: "bg-success" },
+        viewLink: "/dashboard/orders/order-detail",
+    },
+    {
+        id: "#47H76G09F33",
+        date: "Jan 30, 2025",
+        amount: "tk 11286.40",
+        status: { label: "Delivered", badgeClass: "bg-success" },
+        viewLink: "/dashboard/orders/order-detail",
+    },
+    {
+        id: "#53U76G09E38",
+        date: "Jan 21, 2025",
+        amount: "tk 12386.40",
+        status: { label: "Delivered", badgeClass: "bg-success" },
+        viewLink: "/dashboard/orders/order-detail",
+    },
+    {
+        id: "#31M76G09G76",
+        date: "Jan 07, 2025",
+        amount: "tk 21112.40",
+        status: { label: "Delivered", badgeClass: "bg-success" },
+        viewLink: "/dashboard/orders/order-detail",
+    },
+];
+
+export default function Page() {
+    return (
+        <div className="page-content bg-light">
+            <CommanBanner
+                image={"assets/img/"}
+                mainText="Orders"
+                parentText="Home"
+                currentText="Orders"
+            />
+            <div className="content-inner-1">
+                <div className="container">
+                    <div className="row">
+                        <CommanSidebar />
+
+                        <div className="col-xl-9 account-wrapper">
+                            <div className="account-card">
+                                <div className="table-responsive table-style-1">
+                                    <table className="table check-tbl table-hover mb-3">
+                                        <thead>
+                                            <tr>
+                                                <th>Order #</th>
+                                                <th>Date Purchased</th>
+                                                <th>Status</th>
+                                                <th>Total</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {AccoountOrdersTable.map((elem, index) => (
+                                                <tr key={index}>
+                                                    <td><Link href={elem.viewLink} className="fw-medium">{elem.id}</Link></td>
+                                                    <td> <Link href={elem.viewLink} >{elem.date}</Link></td>
+                                                    <td> <Link href={elem.viewLink} >{elem.amount}</Link></td>
+                                                    <td> <Link href={elem.viewLink} ><span className={`badge  m-0 ${elem.status.badgeClass}`}>{elem.status.label}</span></Link></td>
+
+                                                    <td><Link href={elem.viewLink} className="btn-link text-underline p-0">View</Link></td>
+                                                </tr>
+                                            ))}
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div className="d-flex justify-content-center">
+                                    <nav aria-label="Table Pagination">
+                                        <ul className="pagination style-1">
+                                            <li className="page-item"><Link className="page-link" href={"#"}>Prev</Link></li>
+                                            <li className="page-item"><Link className="page-link" href={"#"}>1</Link></li>
+                                            <li className="page-item"><Link className="page-link" href={"#"}>2</Link></li>
+                                            <li className="page-item"><Link className="page-link" href={"#"}>3</Link></li>
+                                            <li className="page-item"><Link className="page-link" href={"#"}>Next</Link></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}

@@ -14,6 +14,7 @@ import "../public/assets/css/magnific-popup.css"
 import "../public/assets/css/meanmenu.css"
 import "../public/assets/css/spacing.css"
 import "../public/assets/css/main.css"
+import "../public/assets/css/style.css"
 const jost = Jost({
     weight: ['300', '400', '500', '600', '700'],
     subsets: ['latin'],

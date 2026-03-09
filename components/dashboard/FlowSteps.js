@@ -1,0 +1,20 @@
+export const flowSteps = [
+    "Factory Manufacturing",
+    "Quality Control",
+    "Factory Packaging",
+    "Transport to Warehouse",
+    "Central Warehouse Storage",
+    "E-commerce Order",
+    "Order Management System",
+    "Warehouse Picking",
+    "Packing Station",
+    "Shipping Label + Tracking",
+    "Courier Pickup",
+    "National Sorting Hub",
+    "Regional Hub",
+    "Local Delivery Station",
+    "Last Mile Delivery",
+    "Customer Door / Pickup Point",
+    "Delivery Confirmation",
+    "Returns & Reverse Logistics"
+];

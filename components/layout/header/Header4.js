@@ -137,7 +137,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         </li>
                                                     </ul>
                                                 </li> */}
-                                                <li className="has-dropdown">
+                                                {/* <li className="has-dropdown">
                                                     <Link href="/">About Us</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/">About Us</Link></li>
@@ -151,8 +151,17 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/">Career</Link></li>
                                                         <li><Link href="/">Contact</Link></li>
                                                     </ul>
+                                                </li> */}
+
+                                                <li className="has-dropdown">
+                                                    <Link href="#">Sample Orders</Link>
+                                                    <ul className="submenu">
+                                                        <li><Link href="/dashboard/orders">Orders</Link></li>
+                                                        <li><Link href="/dashboard/orders/order-detail">Sample Order Details & Data Flow</Link></li>
+
+                                                    </ul>
                                                 </li>
-                                                {/* <li><Link href="/">Contact</Link></li> */}
+
                                             </ul>
                                         </nav>
                                     </div>
