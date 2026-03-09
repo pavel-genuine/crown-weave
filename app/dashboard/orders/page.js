@@ -111,9 +111,12 @@ export default function Page() {
                             <div className="product-filter-content mb-40">
                                 <div className="row align-items-center">
                                     <div className="col-sm-6">
-                                        <div className="product-item-count">
-                                            <span><b>14</b> Item On List</span>
-                                        </div>
+                                        <form action="#">
+                                            <div className="mainmenu__search-bar p-relative">
+                                                <button className="mainmenu__search-icon"><i className="fal fa-search" /></button>
+                                                <input type="text" placeholder="Search products..." />
+                                            </div>
+                                        </form>
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="product-navtabs d-flex justify-content-end align-items-center">
