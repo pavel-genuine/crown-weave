@@ -13,11 +13,20 @@ export default function Page() {
         parentText="Home"
         currentText="Order Details & Data Flow"
       />
+
       <div className="content-inner-1">
         <div className="container">
           <div className="row">
             <CommanSidebar />
+
             <section className="col-xl-9 account-wrapper">
+              <Link
+                href="/dashboard/orders"
+                style={{ color: "white" }}
+                className="btn m-b15 me-xl-3 me-2 btnhover20 mb-30 bg-black"
+              >
+                {"<< "} All Orders
+              </Link>
               <div className="account-card order-details">
                 <div className="order-head">
                   <div className="head-thumb">

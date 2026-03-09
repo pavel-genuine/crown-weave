@@ -9,7 +9,7 @@ import BarcodeScannerComponent from "react-qr-barcode-scanner";
 export const AccoountOrdersTable = [
     {
         id: "#34VB5540K83",
-        date: "Jan 21, 2025",
+        date: "Jan 21, 2026",
         amount: "tk 3580.75",
         status: { label: "In Queue", badgeClass: "bg-primary" },
         viewLink: "/dashboard/orders/order-detail",
@@ -17,7 +17,7 @@ export const AccoountOrdersTable = [
     },
     {
         id: "#34VB5540K83",
-        date: "Jan 21, 2025",
+        date: "Jan 21, 2026",
         amount: "tk 3580.75",
         status: { label: "In Queue", badgeClass: "bg-primary" },
         viewLink: "/dashboard/orders/order-detail",
@@ -25,7 +25,7 @@ export const AccoountOrdersTable = [
     },
     {
         id: "#34VB5540K83",
-        date: "Jan 21, 2025",
+        date: "Jan 21, 2026",
         amount: "tk 3580.75",
         status: { label: "In Queue", badgeClass: "bg-primary" },
         viewLink: "/dashboard/orders/order-detail",
@@ -33,7 +33,7 @@ export const AccoountOrdersTable = [
     },
     {
         id: "#78A643CD409",
-        date: "Feb 09, 2025",
+        date: "Feb 09, 2026",
         amount: "tk 7060.50",
         status: { label: "In Progress", badgeClass: "bg-info" },
         viewLink: "/dashboard/orders/order-detail",
@@ -42,7 +42,7 @@ export const AccoountOrdersTable = [
     },
     {
         id: "#112P45A90V2",
-        date: "Jan 15, 2025",
+        date: "Jan 15, 2026",
         amount: "tk 1,2604.00",
         status: { label: "Delayed", badgeClass: "bg-warning" },
         viewLink: "/dashboard/orders/order-detail",
@@ -51,7 +51,7 @@ export const AccoountOrdersTable = [
     },
     {
         id: "#28BA67U0981",
-        date: "Jan 19, 2025",
+        date: "Jan 19, 2026",
         amount: "tk 1098.35",
         status: { label: "Delivered", badgeClass: "bg-success" },
         viewLink: "/dashboard/orders/order-detail",
@@ -60,7 +60,7 @@ export const AccoountOrdersTable = [
     },
     {
         id: "#502TR872W2",
-        date: "Jan 04, 2025",
+        date: "Jan 04, 2026",
         amount: "tk 12,133.90",
         status: { label: "Delivered", badgeClass: "bg-success" },
         viewLink: "/dashboard/orders/order-detail",
@@ -69,7 +69,7 @@ export const AccoountOrdersTable = [
     },
     {
         id: "#47H76G09F33",
-        date: "Jan 30, 2025",
+        date: "Jan 30, 2026",
         amount: "tk 11286.40",
         status: { label: "Delivered", badgeClass: "bg-success" },
         viewLink: "/dashboard/orders/order-detail",
@@ -78,7 +78,7 @@ export const AccoountOrdersTable = [
     },
     {
         id: "#53U76G09E38",
-        date: "Jan 21, 2025",
+        date: "Jan 21, 2026",
         amount: "tk 12386.40",
         status: { label: "Delivered", badgeClass: "bg-success" },
         viewLink: "/dashboard/orders/order-detail",
@@ -87,7 +87,7 @@ export const AccoountOrdersTable = [
     },
     {
         id: "#31M76G09G76",
-        date: "Jan 07, 2025",
+        date: "Jan 07, 2026",
         amount: "tk 21112.40",
         status: { label: "Delivered", badgeClass: "bg-success" },
         viewLink: "/dashboard/orders/order-detail",

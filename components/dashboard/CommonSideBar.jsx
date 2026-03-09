@@ -42,7 +42,13 @@ export default function CommanSidebar() {
             <ul>
               {accountMenu.map((elem, index) => (
                 <li key={index}>
-                  <Link href={elem.url}>{elem.title}</Link>
+                  {elem?.title == "Orders" ? (
+                    <Link href="/dashboard/orders" style={{ color: "red" }}>
+                      All Orders
+                    </Link>
+                  ) : (
+                    <Link href={elem.url}>{elem.title}</Link>
+                  )}
                 </li>
               ))}
             </ul>
