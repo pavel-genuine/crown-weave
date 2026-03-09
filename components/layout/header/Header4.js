@@ -157,7 +157,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <Link href="#">Sample Orders</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/dashboard/orders">Orders</Link></li>
-                                                        <li><Link href="/dashboard/orders/order-detail">Sample Order Details & Data Flow</Link></li>
+                                                        <li><Link href="/dashboard/orders/order-detail">Order Details & Data Flow</Link></li>
 
                                                     </ul>
                                                 </li>
