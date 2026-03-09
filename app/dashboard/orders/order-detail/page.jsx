@@ -94,7 +94,9 @@ export default function Page() {
   const [data, setData] = useState("Not Found");
 
   const [showModal, setShowModal] = useState(false);
+  const [showProduct, setShowProduct] = useState(false);
   const [openBarcode, setOpenBarcode] = useState(false);
+  const [inProgress, setInProgress] = useState(false);
 
   return (
     <div className="page-content bg-light">
@@ -162,7 +164,7 @@ export default function Page() {
                     href="#"
                     className="btn btn-secondary me-xl-3 me-2 m-b15 btnhover20"
                   >
-                    Export Details
+                    Download
                   </Link>
                   <Link
                     href="#"
@@ -540,6 +542,9 @@ export default function Page() {
                               <strong>Category</strong> : Modern
                             </small>
                             <small className="d-block">
+                              <strong>Color</strong> : Red
+                            </small>
+                            <small className="d-block">
                               <strong>Size</strong> : Medium (9ft*12ft)
                             </small>
                           </div>
@@ -644,7 +649,10 @@ export default function Page() {
             className=""
           >
             <Link
-              onClick={() => setOpenBarcode(true)}
+              onClick={() => {
+                setOpenBarcode(true);
+                setTimeout(() => setShowProduct(true), 3000);
+              }}
               href="#"
               style={{ backgroundColor: "green", color: "white" }}
               className="btn m-b15 me-xl-3 me-2 btnhover20 mb-30"
@@ -661,76 +669,93 @@ export default function Page() {
                 }}
               />
             )}
-            <div className="table-responsive table-style-1">
-              <table className="table check-tbl table-hover mb-3">
-                <thead>
-                  <tr>
-                    <th>Order ID #</th>
-                    <th>Product Image</th>
-                    <th>Date Purchased</th>
-                    <th>Status</th>
-                    <th>Total</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {AccoountOrdersTable.slice(2, 3)?.map((elem, index) => (
-                    <tr key={index}>
-                      <td>
-                        <Link href={elem.viewLink} className="fw-medium">
-                          {elem.id}
-                        </Link>
-                      </td>
-                      <td>
-                        <Link href={elem.viewLink}>
-                          <img
-                            src={elem.img}
-                            alt="Product"
-                            className="img-fluid ml-50 "
-                          />
-                        </Link>
-                      </td>
-                      <td>
-                        {" "}
-                        <Link href={elem.viewLink}>{elem.date}</Link>
-                      </td>
-                      <td>
-                        {" "}
-                        <Link href={elem.viewLink}>{elem.amount}</Link>
-                      </td>
-                      <td>
-                        {" "}
-                        <Link href={elem.viewLink}>
-                          <span
-                            className={`badge  m-0 ${elem.status.badgeClass}`}
-                          >
-                            {elem.status.label}
-                          </span>
-                        </Link>
-                      </td>
-
-                      <td>
-                        <Link
-                          onClick={() => setShowModal(false)}
-                          href={elem.viewLink}
-                          className="btn-link text-underline p-0"
-                        >
-                          View
-                        </Link>
-                      </td>
+            {openBarcode && !showProduct && (
+              <p className="mt-3 mb-3"> Loading Product...</p>
+            )}
+            {showProduct && (
+              <div className="table-responsive table-style-1 mt-3 mb-3">
+                <p className="mb-2 text-success"> Scanned Product</p>
+                <table className="table check-tbl table-hover mb-3">
+                  <thead>
+                    <tr>
+                      <th>Order ID #</th>
+                      <th>Product Image</th>
+                      <th>Date Purchased</th>
+                      <th>Status</th>
+                      <th>Total</th>
+                      <th>Action</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                  </thead>
+                  <tbody>
+                    {AccoountOrdersTable.slice(2, 3)?.map((elem, index) => (
+                      <tr key={index}>
+                        <td>
+                          <Link href={elem.viewLink} className="fw-medium">
+                            {elem.id}
+                          </Link>
+                        </td>
+                        <td>
+                          <Link href={elem.viewLink}>
+                            <img
+                              src={elem.img}
+                              alt="Product"
+                              className="img-fluid ml-50 "
+                            />
+                          </Link>
+                        </td>
+                        <td>
+                          {" "}
+                          <Link href={elem.viewLink}>{elem.date}</Link>
+                        </td>
+                        <td>
+                          {" "}
+                          <Link href={elem.viewLink}>{elem.amount}</Link>
+                        </td>
+                        <td>
+                          {" "}
+                          <Link href={elem.viewLink}>
+                            {inProgress ? (
+                              <span className={`badge  m-0 bg-info`}>
+                                in progress
+                              </span>
+                            ) : (
+                              <span
+                                className={`badge  m-0 ${elem.status.badgeClass}`}
+                              >
+                                {elem.status.label}
+                              </span>
+                            )}
+                          </Link>
+                        </td>
 
-            <Link
-              href="#"
-              style={{ backgroundColor: "green", color: "white" }}
-              className="btn m-b15 me-xl-3 me-2 btnhover20 mb-30"
-            >
-              Proceed to Confirmation
-            </Link>
+                        <td>
+                          <Link
+                            onClick={() => setShowModal(false)}
+                            href={elem.viewLink}
+                            className="btn-link text-underline p-0"
+                          >
+                            View
+                          </Link>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+
+            {inProgress ? (
+              <p className="mb-2 text-info"> Order In Progress</p>
+            ) : (
+              <Link
+                onClick={() => setTimeout(setInProgress(true), 1500)}
+                href="#"
+                style={{ backgroundColor: "green", color: "white" }}
+                className="btn m-b15 me-xl-3 me-2 btnhover20 mb-30"
+              >
+                Proceed to Confirmation
+              </Link>
+            )}
           </div>
         </div>
       </Modal>
