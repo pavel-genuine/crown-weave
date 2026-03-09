@@ -2,6 +2,9 @@
 import Link from "next/link";
 import CommanBanner from "@/components/dashboard/CommonBanner";
 import CommanSidebar from "@/components/dashboard/CommonSideBar";
+import { Modal } from "react-bootstrap";
+import { useState } from "react";
+import BarcodeScannerComponent from "react-qr-barcode-scanner";
 
 export const AccoountOrdersTable = [
     {
@@ -94,6 +97,11 @@ export const AccoountOrdersTable = [
 ];
 
 export default function Page() {
+    const [data, setData] = useState("Not Found");
+
+    const [showModal, setShowModal] = useState(false)
+    const [openBarcode, setOpenBarcode] = useState(false)
+
     return (
         <div className="page-content bg-light">
             <CommanBanner
@@ -111,12 +119,21 @@ export default function Page() {
                             <div className="product-filter-content mb-40">
                                 <div className="row align-items-center">
                                     <div className="col-sm-6">
+                                        <Link
+                                            onClick={() => setShowModal(true)}
+                                            href="#"
+                                            style={{ backgroundColor: "green", color: "white" }}
+                                            className="btn m-b15 me-xl-3 me-2 btnhover20 mb-30"
+                                        >
+                                            Scan Barcode
+                                        </Link>
                                         <form action="#">
                                             <div className="mainmenu__search-bar p-relative">
                                                 <button className="mainmenu__search-icon"><i className="fal fa-search" /></button>
                                                 <input type="text" placeholder="Search products..." />
                                             </div>
                                         </form>
+
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="product-navtabs d-flex justify-content-end align-items-center">
@@ -194,6 +211,78 @@ export default function Page() {
                     </div>
                 </div>
             </div>
+
+
+            <Modal className="quick-view-modal" show={showModal} onHide={() => setShowModal(false)} centered>
+                <button type="button" className="btn-close"
+                    onClick={() => setShowModal(false)}
+                >
+                    <i className="icon feather icon-x" />
+                </button>
+                <div className="modal-body ">
+                    <div style={{ border: '1px solid black', margin: '30px', padding: '30px', borderRadius: '10px' }} className="">
+                        <Link
+                            onClick={() => setOpenBarcode(true)}
+                            href="#"
+                            style={{ backgroundColor: "green", color: "white" }}
+                            className="btn m-b15 me-xl-3 me-2 btnhover20 mb-30"
+                        >
+                            Open Scanner
+                        </Link>
+                        {openBarcode && <BarcodeScannerComponent
+                            width={500}
+                            height={500}
+                            onUpdate={(err, result) => {
+                                if (result) setData(result.text);
+                                else setData("Not Found");
+                            }}
+                        />}
+                        <div className="table-responsive table-style-1">
+                            <table className="table check-tbl table-hover mb-3">
+                                <thead>
+                                    <tr>
+                                        <th>Order ID #</th>
+                                        <th>Product Image</th>
+                                        <th>Date Purchased</th>
+                                        <th>Status</th>
+                                        <th>Total</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {AccoountOrdersTable.slice(0, 1)?.map((elem, index) => (
+                                        <tr key={index}>
+                                            <td><Link href={elem.viewLink} className="fw-medium">{elem.id}</Link></td>
+                                            <td>
+                                                <Link href={elem.viewLink}>
+                                                    <img src={elem.img} alt="Product" className="img-fluid ml-50 " />
+                                                </Link>
+                                            </td>
+                                            <td> <Link href={elem.viewLink} >{elem.date}</Link></td>
+                                            <td> <Link href={elem.viewLink} >{elem.amount}</Link></td>
+                                            <td> <Link href={elem.viewLink} ><span className={`badge  m-0 ${elem.status.badgeClass}`}>{elem.status.label}</span></Link></td>
+
+                                            <td><Link href={elem.viewLink} className="btn-link text-underline p-0">View</Link></td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <Link
+
+                            href="#"
+                            style={{ backgroundColor: "green", color: "white" }}
+                            className="btn m-b15 me-xl-3 me-2 btnhover20 mb-30"
+                        >
+                            Proceed to Confirmation
+                        </Link>
+                    </div>
+
+
+                </div>
+
+            </Modal>
         </div>
     );
 }
