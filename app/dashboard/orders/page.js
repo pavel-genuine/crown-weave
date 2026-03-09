@@ -8,15 +8,34 @@ export const AccoountOrdersTable = [
         id: "#34VB5540K83",
         date: "Jan 21, 2025",
         amount: "tk 3580.75",
-        status: { label: "In Progress", badgeClass: "bg-info" },
+        status: { label: "In Queue", badgeClass: "bg-primary" },
         viewLink: "/dashboard/orders/order-detail",
+        img: "/../assets/img/product/product-2.jpg"
+    },
+    {
+        id: "#34VB5540K83",
+        date: "Jan 21, 2025",
+        amount: "tk 3580.75",
+        status: { label: "In Queue", badgeClass: "bg-primary" },
+        viewLink: "/dashboard/orders/order-detail",
+        img: "/../assets/img/product/product-2.jpg"
+    },
+    {
+        id: "#34VB5540K83",
+        date: "Jan 21, 2025",
+        amount: "tk 3580.75",
+        status: { label: "In Queue", badgeClass: "bg-primary" },
+        viewLink: "/dashboard/orders/order-detail",
+        img: "/../assets/img/product/product-2.jpg"
     },
     {
         id: "#78A643CD409",
         date: "Feb 09, 2025",
         amount: "tk 7060.50",
-        status: { label: "Canceled", badgeClass: "bg-danger" },
+        status: { label: "In Progress", badgeClass: "bg-info" },
         viewLink: "/dashboard/orders/order-detail",
+        img: "/../assets/img/product/product-4.jpg"
+
     },
     {
         id: "#112P45A90V2",
@@ -24,6 +43,8 @@ export const AccoountOrdersTable = [
         amount: "tk 1,2604.00",
         status: { label: "Delayed", badgeClass: "bg-warning" },
         viewLink: "/dashboard/orders/order-detail",
+        img: "/../assets/img/product/product-6.jpg"
+
     },
     {
         id: "#28BA67U0981",
@@ -31,6 +52,8 @@ export const AccoountOrdersTable = [
         amount: "tk 1098.35",
         status: { label: "Delivered", badgeClass: "bg-success" },
         viewLink: "/dashboard/orders/order-detail",
+        img: "/../assets/img/product/product-8.jpg"
+
     },
     {
         id: "#502TR872W2",
@@ -38,6 +61,8 @@ export const AccoountOrdersTable = [
         amount: "tk 12,133.90",
         status: { label: "Delivered", badgeClass: "bg-success" },
         viewLink: "/dashboard/orders/order-detail",
+        img: "/../assets/img/product/product-10.jpg"
+
     },
     {
         id: "#47H76G09F33",
@@ -45,6 +70,8 @@ export const AccoountOrdersTable = [
         amount: "tk 11286.40",
         status: { label: "Delivered", badgeClass: "bg-success" },
         viewLink: "/dashboard/orders/order-detail",
+        img: "/../assets/img/product/product-12.jpg"
+
     },
     {
         id: "#53U76G09E38",
@@ -52,6 +79,8 @@ export const AccoountOrdersTable = [
         amount: "tk 12386.40",
         status: { label: "Delivered", badgeClass: "bg-success" },
         viewLink: "/dashboard/orders/order-detail",
+        img: "/../assets/img/product/product-14.jpg"
+
     },
     {
         id: "#31M76G09G76",
@@ -59,6 +88,8 @@ export const AccoountOrdersTable = [
         amount: "tk 21112.40",
         status: { label: "Delivered", badgeClass: "bg-success" },
         viewLink: "/dashboard/orders/order-detail",
+        img: "/../assets/img/product/product-16.jpg"
+
     },
 ];
 
@@ -77,12 +108,48 @@ export default function Page() {
                         <CommanSidebar />
 
                         <div className="col-xl-9 account-wrapper">
+                            <div className="product-filter-content mb-40">
+                                <div className="row align-items-center">
+                                    <div className="col-sm-6">
+                                        <div className="product-item-count">
+                                            <span><b>14</b> Item On List</span>
+                                        </div>
+                                    </div>
+                                    <div className="col-sm-6">
+                                        <div className="product-navtabs d-flex justify-content-end align-items-center">
+                                            <div className="tp-shop-selector">
+
+
+
+
+                                                <select
+
+                                                    className="chosen-single form-select"
+
+                                                >
+                                                    <option value="">Sort by (default)</option>
+                                                    <option value="asc">Newest</option>
+                                                    <option value="des">Oldest</option>
+                                                    <option value="des">In Queue</option>
+                                                    <option value="des">In Progress</option>
+                                                    <option value="des">Pending</option>
+                                                    <option value="des">Delivered</option>
+                                                    <option value="des">Cancelled</option>
+                                                </select>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="account-card">
                                 <div className="table-responsive table-style-1">
                                     <table className="table check-tbl table-hover mb-3">
                                         <thead>
                                             <tr>
-                                                <th>Order #</th>
+                                                <th>Order ID #</th>
+                                                <th>Product Image</th>
                                                 <th>Date Purchased</th>
                                                 <th>Status</th>
                                                 <th>Total</th>
@@ -93,6 +160,11 @@ export default function Page() {
                                             {AccoountOrdersTable.map((elem, index) => (
                                                 <tr key={index}>
                                                     <td><Link href={elem.viewLink} className="fw-medium">{elem.id}</Link></td>
+                                                    <td>
+                                                        <Link href={elem.viewLink}>
+                                                            <img src={elem.img} alt="Product" className="img-fluid ml-50 " />
+                                                        </Link>
+                                                    </td>
                                                     <td> <Link href={elem.viewLink} >{elem.date}</Link></td>
                                                     <td> <Link href={elem.viewLink} >{elem.amount}</Link></td>
                                                     <td> <Link href={elem.viewLink} ><span className={`badge  m-0 ${elem.status.badgeClass}`}>{elem.status.label}</span></Link></td>

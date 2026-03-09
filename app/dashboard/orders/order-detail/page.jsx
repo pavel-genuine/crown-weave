@@ -27,7 +27,7 @@ export default function Page() {
                     />
                   </div>
                   <div className="clearfix m-l20">
-                    <div className="badge">In Progress</div>
+                    <div className="badge">In Queue</div>
                     <h4 className="mb-0">Order #17493</h4>
                   </div>
                 </div>
