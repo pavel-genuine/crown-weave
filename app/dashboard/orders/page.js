@@ -189,31 +189,49 @@ export default function Page() {
                                                 <th>Total</th>
                                                 <th>Status</th>
 
-                                                <th>Uploads</th>
                                                 <th>Change Status</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             {AccoountOrdersTable.map((elem, index) => (
+
                                                 <tr key={index}>
-                                                    <td><Link href={elem.viewLink} className="fw-medium">{elem.id}</Link></td>
                                                     <td>
-                                                        <Link href={elem.viewLink}>
-                                                            <img src={elem.img} alt="Product" className="img-fluid ml-20 " />
+                                                        <Link href={elem.viewLink} className="fw-medium">
+                                                            {elem.id}
                                                         </Link>
                                                     </td>
-                                                    <td> <Link href={elem.viewLink} >{elem.date}</Link></td>
-                                                    <td> <Link href={elem.viewLink} >{elem.amount}</Link></td>
-                                                    <td> <Link href={elem.viewLink} ><span className={`badge  m-0 ${elem.status.badgeClass}`}>{elem.status.label}</span></Link></td>
                                                     <td>
                                                         <Link href={elem.viewLink}>
-                                                            <img src={elem.uploads} alt="uploads" className="img-fluid  " />
+                                                            <img
+                                                                src={elem.img}
+                                                                alt="Product"
+                                                                className="img-fluid ml-20 "
+                                                            />
                                                         </Link>
                                                     </td>
-                                                    <td> <Link onClick={() => setShowModal(true)} href={'#'} ><span className={`badge  m-0 ${elem?.status?.label == "In Queue" || elem?.status?.label == 'Delayed' ? 'bg-info' : 'bg-success'}`}>{elem?.status?.label == "In Queue" || elem?.status?.label == 'Delayed' ? 'Progress It' : 'Done'}</span></Link></td>
+                                                    <td style={{ cursor: "default" }}>
+                                                        {" "}
+                                                        {elem.date}
+                                                    </td>
+                                                    <td>
+                                                        {" "}
+                                                        {elem.amount}
+                                                    </td>
+                                                    <td>
+                                                        {" "}
+                                                        <span
+                                                            className={`badge  m-0 ${elem.status.badgeClass}`}
+                                                        >
+                                                            {elem.status.label}
+                                                        </span>
+                                                    </td>
+
+                                                    <td> <Link onClick={() => { (elem?.status?.label == "In Queue" || elem?.status?.label == 'Delayed') && setShowModal2(true) }} href={'#'} ><span className={`badge  m-0 ${elem?.status?.label == "In Queue" || elem?.status?.label == 'Delayed' ? 'bg-info' : 'bg-success'}`}>{elem?.status?.label == "In Queue" || elem?.status?.label == 'Delayed' ? 'Progress It' : 'Done'}</span></Link></td>
 
                                                     <td><Link href={elem.viewLink} className="btn-link text-underline p-0">View</Link></td>
+
 
                                                 </tr>
                                             ))}
@@ -247,7 +265,7 @@ export default function Page() {
                 <button
                     type="button"
                     className="btn-close"
-                    onClick={() => setShowModal2(false)}
+                    onClick={() => { setShowModal2(false); setInProgress(false); setOpenBarcode(false); setShowProduct(false) }}
                 >
                     <i className="icon feather icon-x" />
                 </button>
@@ -282,12 +300,13 @@ export default function Page() {
                                 }}
                             />
                         )}
-                        {openBarcode && !showProduct && (
-                            <p className="mt-3 mb-3"> Loading Product...</p>
-                        )}
-                        {showProduct && (
+                        {openBarcode && !showProduct ?
+                            <p className="mt-3 mb-3"> Loading Product...</p> :
+                            showProduct && <p className="mt-3 mb-3 text-white bg-success p-2"> Product Matched ✔✔</p>
+                        }
+                        {(
                             <div className="table-responsive table-style-1 mt-3 mb-3">
-                                <p className="mb-2 text-success"> Scanned Product</p>
+
                                 <table className="table check-tbl table-hover mb-3">
                                     <thead>
                                         <tr>
@@ -316,29 +335,30 @@ export default function Page() {
                                                         />
                                                     </Link>
                                                 </td>
-                                                <td>
+                                                <td style={{ cursor: "default" }}>
                                                     {" "}
-                                                    <Link href={elem.viewLink}>{elem.date}</Link>
+                                                    {elem.date}
                                                 </td>
                                                 <td>
                                                     {" "}
-                                                    <Link href={elem.viewLink}>{elem.amount}</Link>
+                                                    {elem.amount}
                                                 </td>
                                                 <td>
-                                                    {" "}
-                                                    <Link href={elem.viewLink}>
-                                                        {inProgress ? <span
-                                                            className={`badge  m-0 bg-info`}
-                                                        >
-                                                            in progress
-                                                        </span> :
-                                                            <span
-                                                                className={`badge  m-0 ${elem.status.badgeClass}`}
+                                                    <td>
+                                                        <Link href={elem.viewLink}>
+                                                            {inProgress ? <span
+                                                                className={`badge  m-0 bg-info`}
                                                             >
-                                                                {elem.status.label}
-                                                            </span>
-                                                        }
-                                                    </Link>
+                                                                in progress
+                                                            </span> :
+                                                                <span
+                                                                    className={`badge  m-0 ${elem.status.badgeClass}`}
+                                                                >
+                                                                    {elem.status.label}
+                                                                </span>
+                                                            }
+                                                        </Link>
+                                                    </td>
                                                 </td>
 
                                                 <td>
@@ -380,7 +400,7 @@ export default function Page() {
                 <button
                     type="button"
                     className="btn-close"
-                    onClick={() => setShowModal(false)}
+                    onClick={() => { setShowModal(false); setInProgress(false); setOpenBarcode(false); setShowProduct(false) }}
                 >
                     <i className="icon feather icon-x" />
                 </button>
@@ -405,6 +425,12 @@ export default function Page() {
                         >
                             Open Scanner
                         </Link>
+                        <form action="#">
+                            <div className="mainmenu__search-bar p-relative mb-20">
+                                <button className="mainmenu__search-icon"><i className="fal fa-search" /></button>
+                                <input type="text" placeholder="Search products..." />
+                            </div>
+                        </form>
                         {openBarcode && (
                             <BarcodeScannerComponent
                                 width={500}

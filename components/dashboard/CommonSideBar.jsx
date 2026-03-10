@@ -35,7 +35,8 @@ export default function CommanSidebar() {
               />
             </div>
             <h5 className="title mb-0">Mrs Xyz</h5>
-            <span className="text text-primary">info@example.com</span>
+            <p className="text text-primary">info@example.com</p>
+            <p className="text text-success">Warehouse Representative</p>
           </div>
           <div className="account-nav">
             <div className="nav-title bg-light">DASHBOARD</div>

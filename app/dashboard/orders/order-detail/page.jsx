@@ -129,7 +129,11 @@ export default function Page() {
                     />
                   </div>
                   <div className="clearfix m-l20">
-                    <div className="badge">In Queue</div>
+                    {inProgress ? (
+                      <div className="badge badge-info">In Progress</div>
+                    ) : (
+                      <div className="badge">In Queue</div>
+                    )}
                     <h4 className="mb-0">Order #17493</h4>
                   </div>
                 </div>
@@ -195,6 +199,9 @@ export default function Page() {
                           eventKey={"flow-simplied"}
                         >
                           Order Data Flow (Simplified)
+                        </Nav.Link>
+                        <Nav.Link className="nav-link" eventKey={"notes"}>
+                          Notes
                         </Nav.Link>
                         <Nav.Link className="nav-link" eventKey={"details"}>
                           Item Details
@@ -521,6 +528,9 @@ export default function Page() {
                           </ul>
                         </div>
                       </Tab.Pane>
+                      <Tab.Pane eventKey={"notes"}>
+                        <h5>Notes and uploads</h5>
+                      </Tab.Pane>
                       <Tab.Pane eventKey={"details"}>
                         <h5>Item Details</h5>
                         <div className="tracking-item">
@@ -634,7 +644,9 @@ export default function Page() {
         <button
           type="button"
           className="btn-close"
-          onClick={() => setShowModal(false)}
+          onClick={() => {
+            setShowModal(false);
+          }}
         >
           <i className="icon feather icon-x" />
         </button>
@@ -669,12 +681,18 @@ export default function Page() {
                 }}
               />
             )}
-            {openBarcode && !showProduct && (
+            {openBarcode && !showProduct ? (
               <p className="mt-3 mb-3"> Loading Product...</p>
+            ) : (
+              showProduct && (
+                <p className="mt-3 mb-3 text-white bg-success p-2">
+                  {" "}
+                  Product Matched ✔✔
+                </p>
+              )
             )}
-            {showProduct && (
+            {
               <div className="table-responsive table-style-1 mt-3 mb-3">
-                <p className="mb-2 text-success"> Scanned Product</p>
                 <table className="table check-tbl table-hover mb-3">
                   <thead>
                     <tr>
@@ -703,29 +721,24 @@ export default function Page() {
                             />
                           </Link>
                         </td>
+                        <td style={{ cursor: "default" }}> {elem.date}</td>
+                        <td> {elem.amount}</td>
                         <td>
-                          {" "}
-                          <Link href={elem.viewLink}>{elem.date}</Link>
-                        </td>
-                        <td>
-                          {" "}
-                          <Link href={elem.viewLink}>{elem.amount}</Link>
-                        </td>
-                        <td>
-                          {" "}
-                          <Link href={elem.viewLink}>
-                            {inProgress ? (
-                              <span className={`badge  m-0 bg-info`}>
-                                in progress
-                              </span>
-                            ) : (
-                              <span
-                                className={`badge  m-0 ${elem.status.badgeClass}`}
-                              >
-                                {elem.status.label}
-                              </span>
-                            )}
-                          </Link>
+                          <td>
+                            <Link href={elem.viewLink}>
+                              {inProgress ? (
+                                <span className={`badge  m-0 bg-info`}>
+                                  in progress
+                                </span>
+                              ) : (
+                                <span
+                                  className={`badge  m-0 ${elem.status.badgeClass}`}
+                                >
+                                  {elem.status.label}
+                                </span>
+                              )}
+                            </Link>
+                          </td>
                         </td>
 
                         <td>
@@ -742,7 +755,7 @@ export default function Page() {
                   </tbody>
                 </table>
               </div>
-            )}
+            }
 
             {inProgress ? (
               <p className="mb-2 text-info"> Order In Progress</p>
