@@ -87,7 +87,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
 
                                             </ul>
                                         </li>
-                                        <li className="has-dropdown">
+                                        {/* <li className="has-dropdown">
                                             <Link href="/">About Us</Link>
                                             <ul className="submenu">
                                                 <li><Link href="/">About Us</Link></li>
@@ -101,7 +101,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 <li><Link href="/">Career</Link></li>
                                                 <li><Link href="/">Contact</Link></li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         {/* <li><Link href="/">Contact</Link></li> */}
                                     </ul>
                                 </nav>
