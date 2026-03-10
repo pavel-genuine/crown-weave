@@ -84,7 +84,7 @@ export default function WhiteProduct() {
                             <SwiperSlide>
                                 <div className="whiteproduct">
                                     <div className="whiteproduct__thumb">
-                                        <Link href="#"><img src="/assets/img/product/product-13.jpg" alt="product-thumb" /></Link>
+                                        <Link href="#"><img src="/assets/img/product/standard-1.png" alt="product-thumb" /></Link>
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">

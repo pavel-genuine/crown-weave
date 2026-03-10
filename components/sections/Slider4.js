@@ -40,7 +40,7 @@ export default function Slider4() {
                                 <SwiperSlide style={{ backgroundImage: "url('assets/img/slider/1.png')" }} className="  slider-bg-four">
                                     <div className="row align-items-center">
                                         <div className="">
-                                            <div className="tpslidertwo__item slidre-item-4 ml-145 text-center">
+                                            <div className="tpslidertwo__item slider-item-4 ml-50 text-center">
                                                 <div className="tpslidertwo__content">
                                                     <h3 className="tpslidertwo__title mb-10">Will Never <br /> Compromise Quality</h3>
                                                     <p style={{ color: '#c69e47', paddingInline: '10px' }}>New Modern Stylish Fashionable Rugs & Carpets</p>
@@ -59,7 +59,7 @@ export default function Slider4() {
                                 <SwiperSlide style={{ backgroundImage: "url('assets/img/slider/3.png')" }} className="  slider-bg-four">
                                     <div className="row align-items-center">
                                         <div className="">
-                                            <div className="tpslidertwo__item slidre-item-4 ml-145 text-center">
+                                            <div className="tpslidertwo__item slidre-item-4 ml-50 text-center">
                                                 <div className="tpslidertwo__content">
                                                     <h3 className="tpslidertwo__title mb-10">Will Never <br /> Compromise Comfort</h3>
                                                     <p style={{ color: '#c69e47', paddingInline: '10px' }}>New Modern Stylish Fashionable Rugs & Carpets</p>
@@ -81,7 +81,7 @@ export default function Slider4() {
                                 <SwiperSlide style={{ backgroundImage: "url('assets/img/slider/2.png')" }} className="  slider-bg-four">
                                     <div className="row align-items-center">
                                         <div className="">
-                                            <div className="tpslidertwo__item slidre-item-4 ml-145 text-center">
+                                            <div className="tpslidertwo__item slidre-item-4 ml-50 text-center">
                                                 <div className="tpslidertwo__content">
                                                     <h3 className="tpslidertwo__title mb-10">Will Never <br /> Compromise Beauty</h3>
                                                     <p style={{ color: '#c69e47', paddingInline: '10px' }}>New Modern Stylish Fashionable Rugs & Carpets</p>
