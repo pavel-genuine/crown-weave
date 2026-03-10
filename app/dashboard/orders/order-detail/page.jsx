@@ -223,14 +223,19 @@ export default function Page() {
                               <div className="timeline-box">
                                 <Link href={"#"} className="timeline-panel">
                                   <h6 className="mb-0">E-commerce Order</h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>08/03/2026 5:23pm</span>
                                 </Link>
                                 <p>
-                                  <strong>Courier Service : </strong>Pathao
+                                  <strong>Tracking Number : </strong>
+                                  3409-4216-8759
+                                </p>
+                                <p>
+                                  <strong>Representative Cell : </strong>
+                                  +880******
                                 </p>
                                 <p>
                                   <strong>Estimated Delivery Date : </strong>
-                                  09/04/2025
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -241,14 +246,20 @@ export default function Page() {
                                   <h6 className="mb-0">
                                     Order Management System (OMS)
                                   </h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>08/04/2026 5:23pm</span>
                                 </Link>
                                 <p>
-                                  <strong>Courier Service : </strong>Pathao
+                                  <strong>Tracking Number : </strong>
+                                  3409-4216-8759
+                                </p>
+
+                                <p>
+                                  <strong>Representative Cell : </strong>
+                                  +880******
                                 </p>
                                 <p>
                                   <strong>Estimated Delivery Date : </strong>
-                                  09/04/2025
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -257,7 +268,7 @@ export default function Page() {
                               <div className="timeline-box">
                                 <Link href={"#"} className="timeline-panel">
                                   <h6 className="mb-0">Warehouse Picking</h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>09/03/2026 5:23pm</span>
                                 </Link>
                                 <p>
                                   <strong>Tracking Number : </strong>
@@ -265,6 +276,14 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <strong>Warehouse : </strong>Central Warehouse
+                                </p>
+                                <p>
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -273,14 +292,19 @@ export default function Page() {
                               <div className="timeline-box">
                                 <Link href={"#"} className="timeline-panel">
                                   <h6 className="mb-0">Product Packaging</h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>10/03/2026 5:23pm</span>
                                 </Link>
                                 <p>
                                   <strong>Tracking Number : </strong>
                                   3409-4216-8759
                                 </p>
                                 <p>
-                                  <strong>Warehouse : </strong>Central Warehouse
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -291,14 +315,19 @@ export default function Page() {
                                   <h6 className="mb-0">
                                     Shipping Label + Tracking
                                   </h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>11/03/2026 5:23pm</span>
                                 </Link>
                                 <p>
                                   <strong>Tracking Number : </strong>
                                   3409-4216-8759
                                 </p>
                                 <p>
-                                  <strong>Warehouse : </strong>Central Warehouse
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -307,14 +336,23 @@ export default function Page() {
                               <div className="timeline-box">
                                 <Link href={"#"} className="timeline-panel">
                                   <h6 className="mb-0">Courier Pickup</h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>12/03/2026 5:23pm</span>
                                 </Link>
                                 <p>
                                   <strong>Tracking Number : </strong>
                                   3409-4216-8759
                                 </p>
                                 <p>
-                                  <strong>Warehouse : </strong>Central Warehouse
+                                  <strong>Courier : </strong>
+                                  Pathao
+                                </p>
+                                <p>
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -323,14 +361,22 @@ export default function Page() {
                               <div className="timeline-box">
                                 <Link href={"#"} className="timeline-panel">
                                   <h6 className="mb-0">National Sorting Hub</h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>12/03/2026 5:23pm</span>
                                 </Link>
                                 <p>
                                   <strong>Tracking Number : </strong>
                                   3409-4216-8759
                                 </p>
                                 <p>
-                                  <strong>Warehouse : </strong>Central Warehouse
+                                  <strong>Hub : </strong>Jatrabari
+                                </p>
+                                <p>
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -339,14 +385,22 @@ export default function Page() {
                               <div className="timeline-box">
                                 <Link href={"#"} className="timeline-panel">
                                   <h6 className="mb-0">Regional Hub</h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>12/03/2026 5:23pm</span>
                                 </Link>
                                 <p>
                                   <strong>Tracking Number : </strong>
                                   3409-4216-8759
                                 </p>
                                 <p>
-                                  <strong>Warehouse : </strong>Central Warehouse
+                                  <strong>Hub : </strong>Uttara
+                                </p>
+                                <p>
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -357,14 +411,19 @@ export default function Page() {
                                   <h6 className="mb-0">
                                     Local Delivery Station
                                   </h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>13/04/2026 5:23pm</span>
                                 </Link>
                                 <p>
-                                  <strong>Tracking Number : </strong>
+                                  <strong>Station : Housebuilding </strong>
                                   3409-4216-8759
                                 </p>
                                 <p>
-                                  <strong>Warehouse : </strong>Central Warehouse
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -373,14 +432,19 @@ export default function Page() {
                               <div className="timeline-box">
                                 <Link href={"#"} className="timeline-panel">
                                   <h6 className="mb-0">Last Mile Delivery</h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>14/03/2026 5:23pm</span>
                                 </Link>
                                 <p>
                                   <strong>Tracking Number : </strong>
                                   3409-4216-8759
                                 </p>
                                 <p>
-                                  <strong>Warehouse : </strong>Central Warehouse
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -391,14 +455,19 @@ export default function Page() {
                                   <h6 className="mb-0">
                                     Customer Door / Pickup Point
                                   </h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>15/03/2026 5:23pm</span>
                                 </Link>
                                 <p>
                                   <strong>Tracking Number : </strong>
                                   3409-4216-8759
                                 </p>
                                 <p>
-                                  <strong>Warehouse : </strong>Central Warehouse
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -409,14 +478,19 @@ export default function Page() {
                                   <h6 className="mb-0">
                                     Delivery Confirmation
                                   </h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>15/03/2026 5:23pm</span>
                                 </Link>
                                 <p>
                                   <strong>Tracking Number : </strong>
                                   3409-4216-8759
                                 </p>
                                 <p>
-                                  <strong>Warehouse : </strong>Central Warehouse
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -427,15 +501,15 @@ export default function Page() {
                                   <h6 className="mb-0">
                                     Returns & Reverse Logistics
                                   </h6>
-                                  <span>08/04/2025 5:23pm</span>
+                                  <span>15/03/2025 5:23pm</span>
                                 </Link>
                                 <p>
                                   <strong>Tracking Number : </strong>
                                   3409-4216-8759
                                 </p>
-                                <p>
+                                {/* <p>
                                   <strong>Warehouse : </strong>Central Warehouse
-                                </p>
+                                </p> */}
                               </div>
                             </li>
                           </ul>
@@ -475,6 +549,14 @@ export default function Page() {
                                 <p>
                                   <strong>Status :</strong> Preparing order
                                 </p>
+                                <p>
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
+                                </p>
                               </div>
                             </li>
 
@@ -490,6 +572,14 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <strong>Tracking :</strong> 3409-4216-8759
+                                </p>
+                                <p>
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
                                 </p>
                               </div>
                             </li>
@@ -507,6 +597,14 @@ export default function Page() {
                                 <p>
                                   <strong>Courier :</strong> Pathao
                                 </p>
+                                <p>
+                                  <strong>Representative Cell : </strong>
+                                  +880******
+                                </p>
+                                <p>
+                                  <strong>Estimated Delivery Date : </strong>
+                                  09/04/2026
+                                </p>
                               </div>
                             </li>
 
@@ -522,6 +620,10 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <strong>Status :</strong> Delivery Completed
+                                </p>
+                                <p>
+                                  <strong>Representative Cell : </strong>
+                                  +880******
                                 </p>
                               </div>
                             </li>
