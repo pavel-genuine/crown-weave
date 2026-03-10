@@ -258,7 +258,7 @@ export default function Page() {
                             </li>
                             <li>
                               <div
-                                className={` ${inProgress ? "timeline-badge info" : "timeline-badge primary"}`}
+                                className={` ${inProgress ? "timeline-badge  info " : "timeline-badge primary"}`}
                               ></div>
                               <div className="timeline-box">
                                 <Link href={"#"} className="timeline-panel">
@@ -280,7 +280,9 @@ export default function Page() {
                               </div>
                             </li>
                             <li>
-                              <div className="timeline-badge "></div>
+                              <div
+                                className={` ${inProgress ? "timeline-badge primary " : "timeline-badge "}`}
+                              ></div>{" "}
                               <div className="timeline-box">
                                 <Link href={"#"} className="timeline-panel">
                                   <h6 className="mb-0">Product Packaging</h6>
@@ -524,7 +526,9 @@ export default function Page() {
                             </li>
 
                             <li>
-                              <div className="timeline-badge success"></div>
+                              <div
+                                className={` ${inProgress ? "timeline-badge info " : "timeline-badge primary"}`}
+                              ></div>
                               <div className="timeline-box">
                                 <Link href="#" className="timeline-panel">
                                   <h6 className="mb-0">
@@ -550,7 +554,9 @@ export default function Page() {
                             </li>
 
                             <li>
-                              <div className="timeline-badge primary"></div>
+                              <div
+                                className={` ${inProgress ? "timeline-badge primary " : "timeline-badge "}`}
+                              ></div>{" "}
                               <div className="timeline-box">
                                 <Link href="#" className="timeline-panel">
                                   <h6 className="mb-0">Shipped</h6>
