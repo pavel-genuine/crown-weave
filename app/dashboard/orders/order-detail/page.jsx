@@ -257,7 +257,9 @@ export default function Page() {
                               </div>
                             </li>
                             <li>
-                              <div className="timeline-badge primary"></div>
+                              <div
+                                className={` ${inProgress ? "timeline-badge info" : "timeline-badge primary"}`}
+                              ></div>
                               <div className="timeline-box">
                                 <Link href={"#"} className="timeline-panel">
                                   <h6 className="mb-0">Warehouse Picking</h6>

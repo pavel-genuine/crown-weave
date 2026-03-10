@@ -76,6 +76,7 @@
     --gradient: linear-gradient(to right, rgb(255, 64, 62) 0%, rgb(255, 129, 27) 100%);
     --gradient-sec: linear-gradient(to right, rgb(57, 26, 166) 0%, rgb(6, 163, 245) 100%);
     --primary: #CC0D39;
+    --info: #0d66cc;
     --secondary: #000;
     --primary-hover: rgb(240.5023041475, 27.4976958525, 76.5668202765);
     --primary-dark: rgb(60.1658986175, 3.8341013825, 16.8110599078);
@@ -57553,10 +57554,15 @@ table.wishlist_table {
 .widget-timeline .timeline>li>.timeline-badge.primary {
     border-color: #CC0D39;
 }
+.widget-timeline .timeline>li>.timeline-badge.info {
+    border-color: #00aeff;
+}
 
 .widget-timeline .timeline>li>.timeline-badge.primary:after {
     background: #CC0D39;
 }
+.widget-timeline .timeline>li>.timeline-badge.info:after {
+    background:#00aeff;}
 
 .widget-timeline .timeline>li>.timeline-badge.success {
     border-color: #31A56D;
