@@ -225,10 +225,7 @@ export default function Page() {
                                   <h6 className="mb-0">E-commerce Order</h6>
                                   <span>08/03/2026 5:23pm</span>
                                 </Link>
-                                <p>
-                                  <strong>Tracking Number : </strong>
-                                  3409-4216-8759
-                                </p>
+
                                 <p>
                                   <strong>Representative Cell : </strong>
                                   +880******
@@ -248,10 +245,6 @@ export default function Page() {
                                   </h6>
                                   <span>08/04/2026 5:23pm</span>
                                 </Link>
-                                <p>
-                                  <strong>Tracking Number : </strong>
-                                  3409-4216-8759
-                                </p>
 
                                 <p>
                                   <strong>Representative Cell : </strong>
@@ -270,10 +263,7 @@ export default function Page() {
                                   <h6 className="mb-0">Warehouse Picking</h6>
                                   <span>09/03/2026 5:23pm</span>
                                 </Link>
-                                <p>
-                                  <strong>Tracking Number : </strong>
-                                  3409-4216-8759
-                                </p>
+
                                 <p>
                                   <strong>Warehouse : </strong>Central Warehouse
                                 </p>
@@ -294,10 +284,7 @@ export default function Page() {
                                   <h6 className="mb-0">Product Packaging</h6>
                                   <span>10/03/2026 5:23pm</span>
                                 </Link>
-                                <p>
-                                  <strong>Tracking Number : </strong>
-                                  3409-4216-8759
-                                </p>
+
                                 <p>
                                   <strong>Representative Cell : </strong>
                                   +880******
