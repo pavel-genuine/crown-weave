@@ -38,16 +38,16 @@ export default function MobileMenu() {
                                     {/* <li><Link href="/index-5">Food Grocery</Link></li> */}
                                 </ul>
                             </li>
-                            <li className="has-dropdown">
+                            {/* <li className="has-dropdown">
                                 <Link href="/">Categories</Link>
                                 <ul className="submenu">
                                     <li><Link href="/">Machine Made</Link></li>
                                     <li><Link href="/">Needle Punch</Link></li>
                                     <li><Link href="/">Wall To Wall</Link></li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <li className="has-dropdo">
-                                <Link href="/">Shop</Link>
+                                <Link href="/shop-2">Shop</Link>
                                 {/* <ul className="submenu">
                                                         <li><Link href="/">Shop</Link></li>
                                                         <li><Link href="/-2">Shop 2</Link></li>

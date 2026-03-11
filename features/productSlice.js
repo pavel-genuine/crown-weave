@@ -3,23 +3,23 @@ import { createSlice } from "@reduxjs/toolkit"
 const initialState = {
     latestJob: [],
     categoryList: [
-        { id: 1, name: "Kids", value: "kids", isChecked: false, },
-        { id: 2, name: "Mens", value: "mens", isChecked: false, },
-        { id: 3, name: "Womens", value: "womens", isChecked: false, }
+        { id: 1, name: "Category-1", value: "category-1", isChecked: false, },
+        { id: 2, name: "Category-2", value: "category-2", isChecked: false, },
+        { id: 3, name: "Category-3", value: "category-1-3", isChecked: false, }
     ],
     colorList: [
-        { id: 1, name: "Black", value: "black", isChecked: false, },
-        { id: 2, name: "Blue", value: "blue", isChecked: false, },
-        { id: 3, name: "Gray", value: "gray", isChecked: false, },
-        { id: 4, name: "Green", value: "green", isChecked: false, },
-        { id: 5, name: "Red", value: "red", isChecked: false, }
+        { id: 1, name: "Color-1", value: "black", isChecked: false, },
+        { id: 2, name: "Color-2", value: "blue", isChecked: false, },
+        { id: 3, name: "Color-3", value: "gray", isChecked: false, },
+        { id: 4, name: "Color-4", value: "green", isChecked: false, },
+        { id: 5, name: "Color-5", value: "red", isChecked: false, }
     ],
     brandList: [
-        { id: 1, name: "Adidas", value: "adidas", isChecked: false, },
-        { id: 2, name: "Balenciaga", value: "balenciaga", isChecked: false, },
-        { id: 3, name: "Balmain", value: "balmain", isChecked: false, },
-        { id: 4, name: "Burberry", value: "burberry", isChecked: false, },
-        { id: 5, name: "Chloe", value: "chloe", isChecked: false, }
+        { id: 1, name: "Size-1", value: "adidas", isChecked: false, },
+        { id: 2, name: "Size-2", value: "balenciaga", isChecked: false, },
+        { id: 3, name: "Size-3", value: "balmain", isChecked: false, },
+        { id: 4, name: "Size-4", value: "burberry", isChecked: false, },
+        { id: 5, name: "Size-5", value: "chloe", isChecked: false, }
     ]
 }
 

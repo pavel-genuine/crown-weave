@@ -26,7 +26,7 @@ const FilterSidebar = () => {
             </div>
             <div className="product-sidebar__widget mb-30">
                 <div className="product-sidebar__info product-info-list">
-                    <h4 className="product-sidebar__title mb-25">Color</h4>
+                    <h4 className="product-sidebar__title mb-25">Size</h4>
                     <BrandLevel />
                 </div>
             </div>

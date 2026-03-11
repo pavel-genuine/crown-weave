@@ -10,13 +10,13 @@ export default function Shop2() {
     }
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Shop">
+            <Layout headerStyle={4} footerStyle={1} >
                 <div className="product-area pt-70 pb-20">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-10 col-md-12">
                                 <div className="product-sidebar__product-item">
-                                    <FilterShopBox itemStart={10} itemEnd={18} />
+                                    <FilterShopBox itemStart={1} itemEnd={10} />
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-12">

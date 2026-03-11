@@ -6,7 +6,7 @@
     "imgb": "product-2.jpg",
     "category": [
       {
-        "type": "Kids"
+        "type": "category-1"
       }
     ],
     "color": [
@@ -31,7 +31,7 @@
     "imgb": "product-4.jpg",
     "category": [
       {
-        "type": "Mens"
+        "type": "category-2"
       }
     ],
     "color": [
@@ -56,7 +56,7 @@
     "imgb": "product-6.jpg",
     "category": [
       {
-        "type": "Womens"
+        "type": "category-3"
       }
     ],
     "color": [
@@ -81,7 +81,7 @@
     "imgb": "product-8.jpg",
     "category": [
       {
-        "type": "Mens"
+        "type": "category-1"
       }
     ],
     "color": [
@@ -106,7 +106,7 @@
     "imgb": "product-10.jpg",
     "category": [
       {
-        "type": "Kids"
+        "type": "category-2"
       }
     ],
     "color": [
@@ -131,7 +131,7 @@
     "imgb": "product-12.jpg",
     "category": [
       {
-        "type": "Mens"
+        "type": "category-3"
       }
     ],
     "color": [
@@ -156,7 +156,7 @@
     "imgb": "product-14.jpg",
     "category": [
       {
-        "type": "Womens"
+        "type": "category-1"
       }
     ],
     "color": [
@@ -181,7 +181,7 @@
     "imgb": "product-16.jpg",
     "category": [
       {
-        "type": "Mens"
+        "type": "category-2"
       }
     ],
     "color": [
@@ -201,237 +201,237 @@
   },
   {
     "id": 9,
-    "title": "Frederick Valdez",
-    "imgf": "product-17.jpg",
-    "imgb": "product-18.jpg",
+    "title": "Carpet-1",
+    "imgf": "standard-1.png",
+    "imgb": "product-2.jpg",
     "category": [
       {
-        "type": "Kids"
+        "type": "category-1"
       }
     ],
     "color": [
       {
-        "type": "Green"
+        "type": "Black"
       }
     ],
     "brand": [
       {
-        "type": "Burberry"
+        "type": "Adidas"
       }
     ],
     "price": {
       "min": 0,
-      "max": 90
+      "max": 12000
     }
   },
   {
     "id": 10,
-    "title": "Terry Byrd",
-    "imgf": "product-19.jpg",
-    "imgb": "product-20.jpg",
+    "title": "Carpet-2",
+    "imgf": "product-3.jpg",
+    "imgb": "product-4.jpg",
     "category": [
       {
-        "type": "Womens"
+        "type": "category-2"
       }
     ],
     "color": [
       {
-        "type": "Red"
+        "type": "Blue"
       }
     ],
     "brand": [
       {
-        "type": "Chloe"
+        "type": "Balenciaga"
       }
     ],
     "price": {
       "min": 0,
-      "max": 100
+      "max": 13000
     }
   },
   {
     "id": 11,
-    "title": "Angel Jimenez",
-    "imgf": "product-21.jpg",
-    "imgb": "product-22.jpg",
+    "title": "Carpet-3",
+    "imgf": "product-5.jpg",
+    "imgb": "product-6.jpg",
     "category": [
       {
-        "type": "Kids"
+        "type": "category-3"
       }
     ],
     "color": [
       {
-        "type": "Black"
+        "type": "Gray"
       }
     ],
     "brand": [
       {
-        "type": "Adidas"
+        "type": "Balmain"
       }
     ],
     "price": {
       "min": 0,
-      "max": 20
+      "max": 14000
     }
   },
   {
     "id": 12,
-    "title": "Phoebe Arnold",
-    "imgf": "product-23.jpg",
-    "imgb": "product-24.jpg",
+    "title": "Carpet-4",
+    "imgf": "product-7.jpg",
+    "imgb": "product-8.jpg",
     "category": [
       {
-        "type": "Mens"
+        "type": "category-1"
       }
     ],
     "color": [
       {
-        "type": "Blue"
+        "type": "Green"
       }
     ],
     "brand": [
       {
-        "type": "Balenciaga"
+        "type": "Burberry"
       }
     ],
     "price": {
       "min": 0,
-      "max": 30
+      "max": 15000
     }
   },
   {
     "id": 13,
-    "title": "Cordelia Ryan",
-    "imgf": "product-25.jpg",
-    "imgb": "product-26.jpg",
+    "title": "Carpet-5",
+    "imgf": "product-9.jpg",
+    "imgb": "product-10.jpg",
     "category": [
       {
-        "type": "Womens"
+        "type": "category-2"
       }
     ],
     "color": [
       {
-        "type": "Gray"
+        "type": "Black"
       }
     ],
     "brand": [
       {
-        "type": "Balmain"
+        "type": "Adidas"
       }
     ],
     "price": {
       "min": 0,
-      "max": 40
+      "max": 16000
     }
   },
   {
     "id": 14,
-    "title": "Louisa Conner",
-    "imgf": "product-27.jpg",
-    "imgb": "product-28.jpg",
+    "title": "Carpet-6",
+    "imgf": "product-11.jpg",
+    "imgb": "product-12.jpg",
     "category": [
       {
-        "type": "Mens"
+        "type": "category-3"
       }
     ],
     "color": [
       {
-        "type": "Green"
+        "type": "Red"
       }
     ],
     "brand": [
       {
-        "type": "Burberry"
+        "type": "Chloe"
       }
     ],
     "price": {
       "min": 0,
-      "max": 40
+      "max": 17000
     }
   },
   {
     "id": 15,
-    "title": "Elnora Swanson",
-    "imgf": "product-29.jpg",
-    "imgb": "product-30.jpg",
+    "title": "Carpet-7",
+    "imgf": "product-13.jpg",
+    "imgb": "product-14.jpg",
     "category": [
       {
-        "type": "Kids"
+        "type": "category-1"
       }
     ],
     "color": [
       {
-        "type": "Black"
+        "type": "Blue"
       }
     ],
     "brand": [
       {
-        "type": "Adidas"
+        "type": "Balenciaga"
       }
     ],
     "price": {
       "min": 0,
-      "max": 50
+      "max": 18000
     }
   },
   {
     "id": 16,
-    "title": "Georgie Olson",
-    "imgf": "product-31.jpg",
-    "imgb": "product-32.jpg",
+    "title": "Carpet-8",
+    "imgf": "product-15.jpg",
+    "imgb": "product-16.jpg",
     "category": [
       {
-        "type": "Mens"
+        "type": "category-2"
       }
     ],
     "color": [
       {
-        "type": "Red"
+        "type": "Gray"
       }
     ],
     "brand": [
       {
-        "type": "Chloe"
+        "type": "Balmain"
       }
     ],
     "price": {
       "min": 0,
-      "max": 60
+      "max": 12000
     }
   },
   {
     "id": 17,
-    "title": "Frank Cummings",
-    "imgf": "product-33.jpg",
-    "imgb": "product-34.jpg",
+    "title": "Carpet-8",
+    "imgf": "product-15.jpg",
+    "imgb": "product-16.jpg",
     "category": [
       {
-        "type": "Womens"
+        "type": "category-2"
       }
     ],
     "color": [
       {
-        "type": "Blue"
+        "type": "Gray"
       }
     ],
     "brand": [
       {
-        "type": "Balenciaga"
+        "type": "Balmain"
       }
     ],
     "price": {
       "min": 0,
-      "max": 70
+      "max": 12000
     }
   },
   {
     "id": 18,
-    "title": "Lula Pope",
-    "imgf": "product-35.jpg",
-    "imgb": "product-36.jpg",
+    "title": "Carpet-8",
+    "imgf": "product-15.jpg",
+    "imgb": "product-16.jpg",
     "category": [
       {
-        "type": "Mens"
+        "type": "category-2"
       }
     ],
     "color": [
@@ -446,117 +446,42 @@
     ],
     "price": {
       "min": 0,
-      "max": 80
+      "max": 12000
     }
   },
   {
     "id": 19,
-    "title": "Brian Silva",
-    "imgf": "product-37.jpg",
-    "imgb": "product-38.jpg",
+    "title": "Carpet-8",
+    "imgf": "product-15.jpg",
+    "imgb": "product-16.jpg",
     "category": [
       {
-        "type": "Kids"
+        "type": "category-2"
       }
     ],
     "color": [
       {
-        "type": "Green"
+        "type": "Gray"
       }
     ],
     "brand": [
       {
-        "type": "Burberry"
+        "type": "Balmain"
       }
     ],
     "price": {
       "min": 0,
-      "max": 90
+      "max": 12000
     }
   },
   {
     "id": 20,
-    "title": "Pearl Bowen",
-    "imgf": "product-39.jpg",
-    "imgb": "product-40.jpg",
+    "title": "Carpet-8",
+    "imgf": "product-15.jpg",
+    "imgb": "product-16.jpg",
     "category": [
       {
-        "type": "Womens"
-      }
-    ],
-    "color": [
-      {
-        "type": "Red"
-      }
-    ],
-    "brand": [
-      {
-        "type": "Chloe"
-      }
-    ],
-    "price": {
-      "min": 0,
-      "max": 100
-    }
-  },
-  {
-    "id": 21,
-    "title": "Georgia Price",
-    "imgf": "product-41.jpg",
-    "imgb": "product-42.jpg",
-    "category": [
-      {
-        "type": "Kids"
-      }
-    ],
-    "color": [
-      {
-        "type": "Black"
-      }
-    ],
-    "brand": [
-      {
-        "type": "Adidas"
-      }
-    ],
-    "price": {
-      "min": 0,
-      "max": 20
-    }
-  },
-  {
-    "id": 22,
-    "title": "Kenneth Mitchell",
-    "imgf": "product-43.jpg",
-    "imgb": "product-44.jpg",
-    "category": [
-      {
-        "type": "Mens"
-      }
-    ],
-    "color": [
-      {
-        "type": "Blue"
-      }
-    ],
-    "brand": [
-      {
-        "type": "Balenciaga"
-      }
-    ],
-    "price": {
-      "min": 0,
-      "max": 30
-    }
-  },
-  {
-    "id": 23,
-    "title": "Florence Sharp",
-    "imgf": "product-45.jpg",
-    "imgb": "product-46.jpg",
-    "category": [
-      {
-        "type": "Womens"
+        "type": "category-2"
       }
     ],
     "color": [
@@ -571,182 +496,7 @@
     ],
     "price": {
       "min": 0,
-      "max": 40
-    }
-  },
-  {
-    "id": 24,
-    "title": "Myrtie Parks",
-    "imgf": "product-47.jpg",
-    "imgb": "product-48.jpg",
-    "category": [
-      {
-        "type": "Mens"
-      }
-    ],
-    "color": [
-      {
-        "type": "Green"
-      }
-    ],
-    "brand": [
-      {
-        "type": "Burberry"
-      }
-    ],
-    "price": {
-      "min": 0,
-      "max": 40
-    }
-  },
-  {
-    "id": 25,
-    "title": "Dollie Delgado",
-    "imgf": "product-49.jpg",
-    "imgb": "product-50.jpg",
-    "category": [
-      {
-        "type": "Kids"
-      }
-    ],
-    "color": [
-      {
-        "type": "Black"
-      }
-    ],
-    "brand": [
-      {
-        "type": "Adidas"
-      }
-    ],
-    "price": {
-      "min": 0,
-      "max": 50
-    }
-  },
-  {
-    "id": 26,
-    "title": "Jim Warner",
-    "imgf": "product-51.jpg",
-    "imgb": "product-52.jpg",
-    "category": [
-      {
-        "type": "Mens"
-      }
-    ],
-    "color": [
-      {
-        "type": "Red"
-      }
-    ],
-    "brand": [
-      {
-        "type": "Chloe"
-      }
-    ],
-    "price": {
-      "min": 0,
-      "max": 60
-    }
-  },
-  {
-    "id": 27,
-    "title": "Ryan Hale",
-    "imgf": "product-53.jpg",
-    "imgb": "product-54.jpg",
-    "category": [
-      {
-        "type": "Womens"
-      }
-    ],
-    "color": [
-      {
-        "type": "Blue"
-      }
-    ],
-    "brand": [
-      {
-        "type": "Balenciaga"
-      }
-    ],
-    "price": {
-      "min": 0,
-      "max": 70
-    }
-  },
-  {
-    "id": 28,
-    "title": "Louisa Ruiz",
-    "imgf": "product-55.jpg",
-    "imgb": "product-56.jpg",
-    "category": [
-      {
-        "type": "Mens"
-      }
-    ],
-    "color": [
-      {
-        "type": "Gray"
-      }
-    ],
-    "brand": [
-      {
-        "type": "Balmain"
-      }
-    ],
-    "price": {
-      "min": 0,
-      "max": 80
-    }
-  },
-  {
-    "id": 29,
-    "title": "Agnes Goodman",
-    "imgf": "product-57.jpg",
-    "imgb": "product-58.jpg",
-    "category": [
-      {
-        "type": "Kids"
-      }
-    ],
-    "color": [
-      {
-        "type": "Green"
-      }
-    ],
-    "brand": [
-      {
-        "type": "Burberry"
-      }
-    ],
-    "price": {
-      "min": 0,
-      "max": 90
-    }
-  },
-  {
-    "id": 30,
-    "title": "Augusta Tran",
-    "imgf": "product-59.jpg",
-    "imgb": "product-60.jpg",
-    "category": [
-      {
-        "type": "Womens"
-      }
-    ],
-    "color": [
-      {
-        "type": "Red"
-      }
-    ],
-    "brand": [
-      {
-        "type": "Chloe"
-      }
-    ],
-    "price": {
-      "min": 0,
-      "max": 100
+      "max": 12000
     }
   }
 ]
