@@ -34,14 +34,14 @@ const PriceRangeSlider = () => {
             <Slider
                 range
                 min={0}
-                max={100}
+                max={100000}
                 value={[price.min, price.max]}
                 onChange={handleOnChange}
             />
 
             <div className="input-outer">
                 <div className="amount-outer">
-                    <span className="area-amount">{price.max} $ </span>
+                    <span className="area-amount">{price.max} ৳ </span>
 
                 </div>
             </div>
